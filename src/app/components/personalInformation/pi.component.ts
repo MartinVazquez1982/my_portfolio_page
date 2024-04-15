@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class AppPI {
-  title = 'my_portfolio_code';
+  
 }

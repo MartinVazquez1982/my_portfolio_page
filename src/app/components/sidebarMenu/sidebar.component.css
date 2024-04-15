@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'gentiumPlus-boldItalic';
+    src: url('../../../assets/fonts/GentiumPlus-BoldItalic.ttf');
+}
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 30px;
+    padding: 20px 10px;
+
+    width: 5rem;
+
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+.item{
+    margin: 10px 0;
+    padding: 3px;
+
+    background-color: #999999;
+
+    width: 90%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+
+.item:hover{
+    background-color: #f2f2f2;
+}
+
+.item:hover .icon g{
+    fill: #ff7f50;
+}
+
+.item:hover .title{
+    color: #ff7f50;
+}
+
+.icon{
+    width: 90%;
+
+}
+
+.title{
+    font-family: 'gentiumPlus-boldItalic';
+}
