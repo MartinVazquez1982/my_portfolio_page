@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'gentiumPlus-bold';
+    src: url('../../../assets/fonts/GentiumPlus-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'gentiumPlus-italic';
+    src: url('../../../assets/fonts/GentiumPlus-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'gentiumPlus-boldItalic';
+    src: url('../../../assets/fonts/GentiumPlus-BoldItalic.ttf');
+}
+
+
+.conteiner{
+    width: 22%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 300px 20px 20px 60px;
+    padding: 130px 10px 25px 10px;
+    border-radius: 10px;
+
+    background-color: #333333;
+}
+
+.conteiner .per-img{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10px;
+
+    position: absolute; 
+    left: 7.5%;
+    top:25% 
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+    color: #f2f2f2;
+
+    margin: 10px 0;
+    font-family: 'gentiumPlus-bold';
+}
+
+.job{
+    color: #f2f2f2;
+
+    margin: 10px 0;
+    font-family: 'gentiumPlus-bold';
+}
+
+/* Networks List Styles */
+
+.networks-list{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 15px 0;
+}
+
+.github, .linkedin, .twitter{
+    width: 40px;
+    height: 40px;
+}
+
+.color-network{
+    fill: #f2f2f2;
+}
+
+.network-link:hover .color-network{
+    fill: #ff7f50;
+}
+
+/* Personal Data Styles*/
+
+.personal-data{
+    width: 93%;
+
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+    border-radius: 10px;
+
+    margin: 20px 0;
+}
+
+.item-per-data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+    margin: 15px 0;
+}
+
+.location, .email{
+    width: 90%;
+    height: 90%;
+}
+
+.phone{
+    width: 80%;
+    height: 80%;
+}
+
+.img-per-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    margin-left: 10px;
+    margin-right: 5px;
+
+    background-color: #222222;
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.per-info-text{
+    font-family: 'gentiumPlus-bold';
+    font-size:1rem;
+}
+
+.personal-data hr{
+    width: 80%;
+    background-color: #999999;
+}
+
+.data-label{
+    font-family: 'gentiumPlus-italic';
+}
+
+/* Download CV button*/
+
+.down-cv-button{
+    background-color: #ff7f50;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+    border: none;
+
+    color: #f2f2f2;
+    font-family: 'gentiumPlus-boldItalic';
+    
+    cursor: pointer;
+}
+
+.down-cv-button:hover{
+    background-color: #f2f2f2;
+
+    color: #ff7f50;
+}
