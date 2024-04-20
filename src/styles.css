@@ -31,3 +31,10 @@ body{
     }
   }
   
+.conteiner{
+    width: 57rem;
+
+    background-color: #333333;
+
+    border-radius: 10px;
+}

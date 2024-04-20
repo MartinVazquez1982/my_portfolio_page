@@ -14,7 +14,7 @@
 }
 
 
-.conteiner{
+.conteiner-info{
     width: 21rem;
 
     display: flex;
@@ -28,7 +28,7 @@
     background-color: #333333;
 }
 
-.conteiner .per-img{
+.conteiner-info .per-img{
     width: 250px;
     height: 250px;
 
