@@ -8,11 +8,6 @@
     src: url('../../../assets/fonts/GentiumPlus-Italic.ttf');
 }
 
-@font-face {
-    font-family: 'gentiumPlus-boldItalic';
-    src: url('../../../assets/fonts/GentiumPlus-BoldItalic.ttf');
-}
-
 
 .conteiner-info{
     width: 21rem;

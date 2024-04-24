@@ -7,6 +7,7 @@ import { AppPI } from './components/personalInformation/pi.component';
 import { SidebarApp } from './components/sidebarMenu/sidebar.component';
 import { AboutMeApp }  from './components/aboutMe/aboutMe.component';
 import { ResumeApp } from './components/resume/resume.component';
+import { ItemResumeApp } from './components/resume/item-resume/item-resume.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ResumeApp } from './components/resume/resume.component';
     AppPI,
     SidebarApp,
     AboutMeApp,
-    ResumeApp
+    ResumeApp,
+    ItemResumeApp
   ],
   imports: [
     BrowserModule,

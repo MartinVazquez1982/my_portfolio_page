@@ -1,0 +1,24 @@
+{
+    "education":[
+        {
+            "date":"March 2020 - February 2023",
+            "title":"A. Programador Uiversitario",
+            "institure":"UNICEN",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum at odit tenetur voluptates iusto debitis accusamus ipsum consectetur corrupti placeat alias voluptatem repudiandae similique nulla eius, corporis sint odio?"
+        },
+        {
+            "date":"March 2020 - Present",
+            "title":"Ingenieria de Sistemas",
+            "institure":"UNICEN",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum at odit tenetur voluptates iusto debitis accusamus ipsum consectetur corrupti placeat alias voluptatem repudiandae similique nulla eius, corporis sint odio?"
+        }
+    ],
+    "experience":[
+        {
+            "date":"March 2024 - June 2024",
+            "title":"Ayte. de Cátedra - POO",
+            "institure":"UNICEN",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum at odit tenetur voluptates iusto debitis accusamus ipsum consectetur corrupti placeat alias voluptatem repudiandae similique nulla eius, corporis sint odio?"
+        }
+    ]
+}

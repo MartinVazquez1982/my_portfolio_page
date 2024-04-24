@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as data from '../../../data/resume.json';
+import { ResumeData } from '../../../interfaces/interfaces';
 
 @Component({
     selector: 'app-resume',
@@ -7,5 +9,7 @@ import { Component } from '@angular/core';
 })
 
 export class ResumeApp {
-  
+
+    items: ResumeData = data;
+
 }
