@@ -8,6 +8,7 @@ import { SidebarApp } from './components/sidebarMenu/sidebar.component';
 import { AboutMeApp }  from './components/aboutMe/aboutMe.component';
 import { ResumeApp } from './components/resume/resume.component';
 import { ItemResumeApp } from './components/resume/item-resume/item-resume.component';
+import { ContactApp } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ItemResumeApp } from './components/resume/item-resume/item-resume.compo
     SidebarApp,
     AboutMeApp,
     ResumeApp,
-    ItemResumeApp
+    ItemResumeApp,
+    ContactApp
   ],
   imports: [
     BrowserModule,
