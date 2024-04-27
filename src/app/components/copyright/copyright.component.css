@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'gentiumPlus-bold';
+    src: url('../../../assets/fonts/GentiumPlus-Bold.ttf');
+}
+
+footer{
+    width: 57rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #666666;
+    margin-top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    padding: 10px 0;
+    font-family: 'gentiumPlus-bold';
+}

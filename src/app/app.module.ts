@@ -9,6 +9,7 @@ import { AboutMeApp }  from './components/aboutMe/aboutMe.component';
 import { ResumeApp } from './components/resume/resume.component';
 import { ItemResumeApp } from './components/resume/item-resume/item-resume.component';
 import { ContactApp } from './components/contact/contact.component';
+import { CopyrightApp } from './components/copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactApp } from './components/contact/contact.component';
     AboutMeApp,
     ResumeApp,
     ItemResumeApp,
-    ContactApp
+    ContactApp,
+    CopyrightApp
   ],
   imports: [
     BrowserModule,
