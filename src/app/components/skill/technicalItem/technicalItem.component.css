@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'gentiumPlus-italic';
+    src: url('../../../../assets/fonts/GentiumPlus-Italic.ttf');
+}
+
+img{
+    width: 100%;
+}
+
+.item-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100px;
+    margin: 10px 50px;
+}
+
+p{
+    font-family: 'gentiumPlus-italic';
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-top: 10px;
+}

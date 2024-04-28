@@ -10,6 +10,8 @@ import { ResumeApp } from './components/resume/resume.component';
 import { ItemResumeApp } from './components/resume/item-resume/item-resume.component';
 import { ContactApp } from './components/contact/contact.component';
 import { CopyrightApp } from './components/copyright/copyright.component';
+import { SkillsApp } from './components/skill/skills.component';
+import { TechnicalItemApp } from './components/skill/technicalItem/technicalItem.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CopyrightApp } from './components/copyright/copyright.component';
     ResumeApp,
     ItemResumeApp,
     ContactApp,
-    CopyrightApp
+    CopyrightApp,
+    SkillsApp,
+    TechnicalItemApp
   ],
   imports: [
     BrowserModule,

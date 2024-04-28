@@ -1,0 +1,15 @@
+<div class="conteiner">
+    <div class="conteiner-title">
+        <h1 class="title">Skills</h1>
+        <hr>
+    </div>
+    <h2 class="title-secundary">Technical</h2>
+    <div class="technical-list">
+        <app-tecnicalItem
+            *ngFor="let item of items.technical"
+            [item_technical]="item"
+        ></app-tecnicalItem>
+    </div>
+    <h2 class="title-secundary">Soft</h2>
+    <h2 class="title-secundary">Lenguages</h2>
+</div>

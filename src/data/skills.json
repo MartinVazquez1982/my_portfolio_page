@@ -1,0 +1,36 @@
+{
+    "technical":[
+        {
+            "img": "../../../../assets/skills/technicals/c.svg",
+            "title": "C++"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/java.svg",
+            "title": "Java"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/angular.svg",
+            "title": "Angular"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/express.svg",
+            "title": "Express"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/postgresql.svg",
+            "title": "PostgreSQL"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/mongodb.svg",
+            "title": "MongoDB"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/nodejs.svg",
+            "title": "NodeJS"
+        },
+        {
+            "img": "../../../../assets/skills/technicals/python.svg",
+            "title": "Python"
+        }
+    ]
+}
