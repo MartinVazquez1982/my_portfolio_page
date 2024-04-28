@@ -157,6 +157,7 @@
     font-family: 'gentiumPlus-boldItalic';
     
     cursor: pointer;
+    text-decoration: none;
 }
 
 .down-cv-button:hover{
