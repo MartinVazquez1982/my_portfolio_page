@@ -1,6 +1,78 @@
+@font-face {
+    font-family: 'gentiumPlus-bold';
+    src: url('../../../assets/fonts/GentiumPlus-Bold.ttf');
+}
+
+
 .technical-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.lenguage-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.lenguage-container{
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+
+.level{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 50px;
+    width: 50px;
+
+    background-color: #666666;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+
+    border: 2px solid #ff7f50;
+
+    z-index: 1;
+}
+
+.level p{
+    font-family: 'gentiumPlus-bold';
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.lenguage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #666666;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 210px;
+    height: 80px;
+
+    border-radius: 10px;
+}
+
+.lenguage p{
+    font-family: 'gentiumPlus-bold';
+    color: #f2f2f2;
+    font-size: 30px;
 }
