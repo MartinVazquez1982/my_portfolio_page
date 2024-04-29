@@ -3,15 +3,24 @@
         <h1 class="title">Skills</h1>
         <hr>
     </div>
-    <h2 class="title-secundary">Technical</h2>
+    <div class="title-secundary-conteiner">
+        <img class="title-secundary-icon" src="../../../assets/skills/titleIcons/habilidades.svg" alt="technical">
+        <h2 class="title-secundary">Technical</h2>
+    </div>
     <div class="technical-list">
         <app-tecnicalItem
             *ngFor="let item of items.technical"
             [item_technical]="item"
         ></app-tecnicalItem>
     </div>
-    <h2 class="title-secundary">Soft</h2>
-    <h2 class="title-secundary">Lenguages</h2>
+    <div class="title-secundary-conteiner">
+        <img class="title-secundary-icon" src="../../../assets/skills/titleIcons/apreton-de-manos.svg" alt="soft">
+        <h2 class="title-secundary">Soft</h2>
+    </div>
+    <div class="title-secundary-conteiner">
+        <img class="title-secundary-icon" src="../../../assets/skills/titleIcons/idioma.svg" alt="">
+        <h2 class="title-secundary">Lenguages</h2>
+    </div>
     <div class="lenguage-list">
         <div class="lenguage-container">
             <div class="level">
