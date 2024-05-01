@@ -8,45 +8,68 @@
     src: url('../../../assets/fonts/GentiumPlus-Italic.ttf');
 }
 
+@font-face {
+    font-family: 'gentiumPlus-boldItalic';
+    src: url('../../../assets/fonts/GentiumPlus-BoldItalic.ttf');
+}
+
+.conteiner-info-img{
+    width: 100%;
+}
+
 
 .conteiner-info{
-    width: 21rem;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    margin: 0 20px 20px 60px;
-    padding: 130px 10px 25px 10px;
-    border-radius: 10px;
-
+    border-radius: 0 0 10px 10px;
     background-color: #333333;
+    margin-bottom: 20px;
 }
 
-.conteiner-info .per-img{
-    width: 250px;
-    height: 250px;
+.conteiner-img{
+    width: 100%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    border-radius: 10px 0;
+}
+
+.conteiner-img::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #333333;
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+}
+
+.per-img{
     border-radius: 10px;
-
-    position: absolute; 
-    left: 7.5%;
-    top:25% 
+    width: 80%;
 }
 
 .name{
     text-align: center;
     font-size: 25px;
     color: #f2f2f2;
-
-    margin: 10px 0;
     font-family: 'gentiumPlus-bold';
+    margin: 5px 0;
 }
 
 .job{
     color: #f2f2f2;
-
-    margin: 10px 0;
+    margin: 5px 0;
     font-family: 'gentiumPlus-bold';
 }
 
@@ -88,7 +111,7 @@
 
     border-radius: 10px;
 
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .item-per-data{
@@ -99,6 +122,7 @@
     width: 100%;
 
     margin: 15px 0;
+    padding-left: 10%;
 }
 
 .location, .email{
@@ -119,13 +143,11 @@
     width: 40px;
     height: 40px;
 
-    margin-left: 10px;
-    margin-right: 5px;
-
     background-color: #222222;
     border-radius: 10px;
 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
 }
 
 .per-info-text{
@@ -149,6 +171,7 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 
     padding: 10px 20px;
+    margin-bottom: 15px;
 
     border-radius: 10px;
     border: none;

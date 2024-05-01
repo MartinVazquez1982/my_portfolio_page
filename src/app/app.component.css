@@ -1,7 +1,21 @@
 main{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 14rem;
+    width: 100%;
+}
 
-    margin-top: 300px;
+.personal-info{
+    width: 23%;
+}
+
+.info{
+    width: 65%;
+    margin-top: 9.2%;
+}
+
+.sidebar{
+    width: 7%;
+    margin-top: 9.2%;
 }
