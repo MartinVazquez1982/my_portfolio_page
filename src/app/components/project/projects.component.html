@@ -1,0 +1,18 @@
+<div class="conteiner">
+    <div class="conteiner-title">
+        <h1 class="title">Projects</h1>
+        <hr>
+    </div>
+    <div class="projects-buttons-list">
+        <button
+            id="0"
+            [ngClass]="{'project-button-press': buttons[0], 'project-button': !buttons[0]}"
+            (click)="onClickButton($event)"
+        >Academics</button>
+        <button
+            id="1"
+            [ngClass]="{'project-button-press': buttons[1], 'project-button': !buttons[1]}"
+            (click)="onClickButton($event)"
+        >Others</button>
+    </div>
+</div>
