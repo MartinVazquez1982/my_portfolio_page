@@ -13,6 +13,7 @@ import { CopyrightApp } from './components/copyright/copyright.component';
 import { SkillsApp } from './components/skill/skills.component';
 import { TechnicalItemApp } from './components/skill/technicalItem/technicalItem.component';
 import { ProjectsApp } from './components/project/projects.component';
+import { SoftSkillItemApp } from './components/skill/softSkillItem/softSkillItem.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectsApp } from './components/project/projects.component';
     CopyrightApp,
     SkillsApp,
     TechnicalItemApp,
-    ProjectsApp
+    ProjectsApp,
+    SoftSkillItemApp
   ],
   imports: [
     BrowserModule,

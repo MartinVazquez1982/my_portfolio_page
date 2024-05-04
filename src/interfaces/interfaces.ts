@@ -15,7 +15,8 @@ export interface Resume{
 // Skills Interfaces
 
 export interface SkillsData{
-    technical: TechnicalSkill[]
+    technical: TechnicalSkill[],
+    softs: String[]
 }
 
 export interface TechnicalSkill{

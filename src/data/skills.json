@@ -32,5 +32,15 @@
             "img": "../../../../assets/skills/technicals/python.svg",
             "title": "Python"
         }
+    ],
+    "softs":[
+        "Teamwork",
+        "Creativity",
+        "Communication",
+        "Dedication",
+        "Critical thinking",
+        "Leadership",
+        "Adaptability",
+        "Problem solving"
     ]
 }

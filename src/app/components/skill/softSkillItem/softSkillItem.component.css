@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'gentiumPlus-italic';
+    src: url('../../../../assets/fonts/GentiumPlus-Italic.ttf');
+}
+
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 20px;
+    transition: transform 0.3s ease;
+}
+
+.item:hover{
+    transform: scale(1.15);
+}
+
+.number-container{
+    height: 30px;
+    width: 30px;
+    background-color: #ff7f50;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    font-family: 'gentiumPlus-italic';
+    color: #f2f2f2;
+    font-size: 1.3rem;
+}
+
+.skill{
+    margin-left: 10px;
+    font-family: 'gentiumPlus-italic';
+    color: #f2f2f2;
+    font-size: 1.3rem;
+}
+

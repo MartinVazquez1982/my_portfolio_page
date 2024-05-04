@@ -17,6 +17,13 @@
         <img class="title-secundary-icon" src="../../../assets/skills/titleIcons/apreton-de-manos.svg" alt="soft">
         <h2 class="title-secundary">Soft</h2>
     </div>
+    <div class="softskils-lists">
+        <app-softSkillItem
+        *ngFor="let item of items.softs; let i = index"
+        [num]="i+1"
+        [softSkill]="item" 
+        ></app-softSkillItem>   
+    </div>
     <div class="title-secundary-conteiner">
         <img class="title-secundary-icon" src="../../../assets/skills/titleIcons/idioma.svg" alt="">
         <h2 class="title-secundary">Lenguages</h2>
