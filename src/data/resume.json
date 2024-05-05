@@ -2,23 +2,23 @@
     "education":[
         {
             "date":"March 2020 - February 2023",
-            "title":"A. Programador Universitario",
+            "title":"University programmer anal.",
             "institure":"UNICEN",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum at odit tenetur voluptates iusto debitis accusamus ipsum consectetur corrupti placeat alias voluptatem repudiandae similique nulla eius, corporis sint odio?"
+            "description":"The UPA: Proficient in software dev, adaptable in diverse workplaces, drives societal impact through system enhancement."
         },
         {
             "date":"March 2020 - Present",
-            "title":"Ingenieria de Sistemas",
+            "title":"System engineering",
             "institure":"UNICEN",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum at odit tenetur voluptates iusto debitis accusamus ipsum consectetur corrupti placeat alias voluptatem repudiandae similique nulla eius, corporis sint odio?"
+            "description":"The Systems Engineer: Versatile professional skilled in math, comp sci, architecture, software engineering, management, and signal processing. Applies expertise effectively, advances the field through innovation, research, and development."
         }
     ],
     "experience":[
         {
             "date":"March 2024 - June 2024",
-            "title":"Ayte. de Cátedra - POO",
+            "title":"Asistant Teacher - OOP",
             "institure":"UNICEN",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum at odit tenetur voluptates iusto debitis accusamus ipsum consectetur corrupti placeat alias voluptatem repudiandae similique nulla eius, corporis sint odio?"
+            "description":"As a TA in object-oriented programming, facilitates student learning, communicates tech concepts effectively, enhances communication skills, reinforces personal understanding, and strengthens learning in Computer Science."
         }
     ]
 }
