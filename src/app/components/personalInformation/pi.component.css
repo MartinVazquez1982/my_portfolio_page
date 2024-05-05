@@ -26,7 +26,7 @@
     align-items: center;
 
     border-radius: 0 0 10px 10px;
-    background-color: #333333;
+    background-color: var(--background-container);
 
     margin-bottom: 10px;
 }
@@ -50,7 +50,7 @@
     left: 0;
     width: 100%;
     height: 50%;
-    background-color: #333333;
+    background-color: var(--background-container);
     border-radius: 10px 10px 0 0;
     z-index: -1;
 }
@@ -63,13 +63,13 @@
 .name{
     text-align: center;
     font-size: 25px;
-    color: #f2f2f2;
+    color: var(--white-color);
     font-family: 'gentiumPlus-bold';
     margin: 5px 0;
 }
 
 .job{
-    color: #f2f2f2;
+    color: var(--white-color);
     margin: 5px 0;
     font-family: 'gentiumPlus-bold';
 }
@@ -92,11 +92,11 @@
 }
 
 .color-network{
-    fill: #f2f2f2;
+    fill: var(--white-color);
 }
 
 .network-link:hover .color-network{
-    fill: #ff7f50;
+    fill: var(--orange-color);
 }
 
 /* Personal Data Styles*/
@@ -104,7 +104,7 @@
 .personal-data{
     width: 93%;
 
-    background-color: #666666;
+    background-color: var(--background-secundary);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,7 +168,7 @@
 /* Download CV button*/
 
 .down-cv-button{
-    background-color: #ff7f50;
+    background-color: var(--orange-color);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 
     padding: 10px 20px;
@@ -177,15 +177,16 @@
     border-radius: 10px;
     border: none;
 
-    color: #f2f2f2;
+    color: var(--white-color);
     font-family: 'gentiumPlus-boldItalic';
     
     cursor: pointer;
     text-decoration: none;
+    transition: 300ms ease-in-out;
 }
 
 .down-cv-button:hover{
-    background-color: #f2f2f2;
+    background-color: var(--white-color);
 
-    color: #ff7f50;
+    color: var(--orange-color);
 }

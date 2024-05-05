@@ -33,7 +33,7 @@
     height: 50px;
     width: 50px;
 
-    background-color: #666666;
+    background-color: var(--background-secundary);
 
     display: flex;
     justify-content: center;
@@ -41,14 +41,14 @@
 
     border-radius: 100%;
 
-    border: 2px solid #ff7f50;
+    border: 2px solid var(--orange-color);
 
     z-index: 1;
 }
 
 .level p{
     font-family: 'gentiumPlus-bold';
-    color: #f2f2f2;
+    color: var(--white-color);
     font-size: 20px;
 }
 
@@ -58,7 +58,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-color: #666666;
+    background-color: var(--background-secundary);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 
     display: flex;
@@ -73,7 +73,7 @@
 
 .lenguage p{
     font-family: 'gentiumPlus-bold';
-    color: #f2f2f2;
+    color: var(--white-color);
     font-size: 30px;
 }
 

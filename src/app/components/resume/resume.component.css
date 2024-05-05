@@ -11,7 +11,7 @@
 
 .title-item{
     font-family: 'gentiumPlus-bold';
-    color: #f2f2f2;
+    color: var(--white-color);
     font-size: 30px;
 }
 

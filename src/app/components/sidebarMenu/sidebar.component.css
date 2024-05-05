@@ -21,7 +21,7 @@
     width: 75%;
 
     border-radius: 10px;
-    background-color: #333333;
+    background-color: var(--background-container);
 }
 
 .item{
@@ -39,15 +39,15 @@
 }
 
 .item:hover{
-    background-color: #f2f2f2;
+    background-color: var(--white-color);
 }
 
 .item:hover .icon g{
-    fill: #ff7f50;
+    fill: var(--orange-color);
 }
 
 .item:hover .title-button{
-    color: #ff7f50;
+    color: var(--orange-color);
 }
 
 .icon{

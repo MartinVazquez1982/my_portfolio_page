@@ -42,7 +42,7 @@
   
 .card-front {
   color: #f2f2f2;
-  background-color: #666666;
+  background-color: var(--background-secundary);
   border-radius: 10px;
   transform: rotateY(0deg);
 
@@ -53,7 +53,7 @@
 }
   
 .card-back {
-  background-color: #ff7f50;
+  background-color: var(--orange-color);
   border-radius: 10px;
   transform: rotateY(180deg);
   text-align: justify;
@@ -85,7 +85,7 @@
 .description{
   font-family: 'gentiumPlus-bold';
   margin: 10px;
-  color: #f2f2f2;
+  color: var(--white-color);
   font-size: 13px;
   line-height: 1.2;
 }
