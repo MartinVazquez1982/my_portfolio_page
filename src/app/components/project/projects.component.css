@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'gentiumPlus-italic';
-    src: url('../../../assets/fonts/GentiumPlus-Italic.ttf');
-}
-
 .projects-buttons-list{
     display: flex;
     justify-content: center;

@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'gentiumPlus-bold';
+  src: url('./assets/fonts/GentiumPlus-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'gentiumPlus-italic';
+  src: url('./assets/fonts/GentiumPlus-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'gentiumPlus-boldItalic';
+  src: url('./assets/fonts/GentiumPlus-BoldItalic.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
