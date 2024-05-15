@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import * as data from '../../../data/projects.json';
+import { ProjectList } from '../../../interfaces/interfaces';
+
 
 @Component({
     selector: 'app-projects',
@@ -7,9 +10,15 @@ import { Component } from '@angular/core';
 })
 
 export class ProjectsApp {
-  
+    
+    items: ProjectList = data;
     buttons: boolean[] = [true, false];
     button_press: number = 0;
+
+    constructor(){
+        console.log('pase')
+    }
+
 
     onClickButton(event: MouseEvent){
         const idButton = (event.target as HTMLButtonElement).id;

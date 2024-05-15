@@ -32,3 +32,14 @@
     border-left: 2px solid var(--orange-color);
     border-right: 2px solid var(--orange-color);
 }
+
+.project-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.project-item{
+    margin: 20px 0;
+}
