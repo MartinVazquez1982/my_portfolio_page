@@ -2,7 +2,8 @@
 // Resume Interfaces
 export interface ResumeData{
     education: Resume[],
-    experience: Resume[]
+    experience: Resume[],
+    certifications: Certification[]
 }
 
 export interface Resume{
@@ -10,6 +11,12 @@ export interface Resume{
     title: String,
     institure: String,
     description: String
+}
+
+export interface Certification{
+    img: String,
+    title: String,
+    link: String
 }
 
 // Skills Interfaces

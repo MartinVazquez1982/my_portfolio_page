@@ -15,6 +15,7 @@ import { TechnicalItemApp } from './components/skill/technicalItem/technicalItem
 import { ProjectsApp } from './components/project/projects.component';
 import { SoftSkillItemApp } from './components/skill/softSkillItem/softSkillItem.component';
 import { ProjectItemApp } from './components/project/projectItem/projectItem.component';
+import { ItemCetificationApp } from './components/resume/item-certification/item-certification.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProjectItemApp } from './components/project/projectItem/projectItem.com
     TechnicalItemApp,
     ProjectsApp,
     SoftSkillItemApp,
-    ProjectItemApp
+    ProjectItemApp,
+    ItemCetificationApp
   ],
   imports: [
     BrowserModule,

@@ -15,18 +15,20 @@
             (click)="onClickButton($event)"
         >Others</button>
     </div>
-    <div *ngIf="buttons[0]" class="project-list">
-        <app-projectItem
-            class="project-item"
-            *ngFor="let item of items.academy" 
-            [item_project]=item
-        ></app-projectItem>
-    </div>
-    <div *ngIf="buttons[1]" class="project-list">
-        <app-projectItem
-            class="project-item"
-            *ngFor="let item of items.others" 
-            [item_project]=item
-        ></app-projectItem>
+    <div class="projects-container">
+        <div *ngIf="buttons[0]" class="project-list">
+            <app-projectItem
+                class="project-item"
+                *ngFor="let item of items.academy" 
+                [item_project]=item
+            ></app-projectItem>
+        </div>
+        <div *ngIf="buttons[1]" class="project-list">
+            <app-projectItem
+                class="project-item"
+                *ngFor="let item of items.others" 
+                [item_project]=item
+            ></app-projectItem>
+        </div>
     </div>
 </div>

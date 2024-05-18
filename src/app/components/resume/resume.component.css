@@ -33,3 +33,110 @@
 .item-resume{
     margin: 10px 0;
 }
+
+.certification{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden; 
+}
+
+.certification-slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 15px 0;
+}
+
+.certification-slider .certification-list{
+    display: grid;
+    gap: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    overflow: hidden;
+    height: 150px;
+}
+
+.certification-slider .certification-list::state(webkit-scrollbar){
+    display: none;
+}
+
+.certification-slider .certification-list .certification{
+    object-fit: cover;
+}
+
+.button-certification{
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.button-certification:hover{
+    background-color: #999999;
+}
+
+.container-button{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-scrollbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-scrollbar{
+    height: 24px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.scrollbar-track{
+    position: relative;
+    height: 2px;
+    width: 100%;
+    background-color: var(--white-color);
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-track:active{
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.scrollbar-thumb{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: var(--orange-color);
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
