@@ -24,3 +24,17 @@ p{
 .icon-hobbie:hover{
     transform: scale(1.1);
 }
+
+.ins-pv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inspirations, .personal-values{
+    width: 50%;
+}
+
+.inspirations img, .personal-values img{
+    width: 6%;
+}

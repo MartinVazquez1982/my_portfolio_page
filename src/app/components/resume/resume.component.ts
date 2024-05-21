@@ -61,11 +61,6 @@ export class ResumeApp implements OnInit {
             })
         });
 
-        const handleSlideButtons = () => {
-            slideButtons[0].style.display = imageList[0].scrollLeft <= 0 ? 'none': 'block';
-            slideButtons[1].style.display = imageList[0].scrollLeft >= maxScrollLeft ? 'none': 'block';
-        }
-
         const updateScrollThumbPosition = () => {
             const scrollPosition = imageList[0].scrollLeft;
             const thumbPosition = (scrollPosition / maxScrollLeft) * (slideScrollbar.clientWidth - scrollbarThumb.offsetWidth);
@@ -73,7 +68,6 @@ export class ResumeApp implements OnInit {
         }
 
         imageList[0].addEventListener('scroll', () => {
-            handleSlideButtons();
             updateScrollThumbPosition();
         });
     }

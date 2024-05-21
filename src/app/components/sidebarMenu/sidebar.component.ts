@@ -13,24 +13,8 @@ export class SidebarApp {
 
     }
 
-    onNavigateToAbout(){
-        this.router.navigate(['aboutMe']);
+    onNavigateTo(ruta:string){
+        this.router.navigate([ruta]);
+        window.scrollTo(0, 0);
     }
-
-    onNavigateToResume(){
-        this.router.navigate(['resume']);
-    }
-
-    onNavigateToSkills(){
-        this.router.navigate(['skills']);
-    }
-
-    onNavigateToProjects(){
-        this.router.navigate(['projects']);
-    }
-
-    onNavigateToContact(){
-        this.router.navigate(['contact']);
-    }
-
 }

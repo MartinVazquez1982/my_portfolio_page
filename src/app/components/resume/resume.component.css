@@ -39,7 +39,16 @@
     justify-content: center;
     align-items: flex-start;
     overflow: hidden; 
+    padding-top: 10px;
 }
+
+.certification:hover{
+    transform: scale(1.1); /* Amplía la tarjeta un 10% */
+    transition: transform 0.3s ease-in-out;
+    overflow: visible;
+}
+
+
 
 .certification-slider{
     display: flex;
@@ -52,11 +61,9 @@
 .certification-slider .certification-list{
     display: grid;
     gap: 30px;
-    overflow-x: auto;
     scrollbar-width: none;
-    overflow-y: hidden;
-    overflow: hidden;
-    height: 150px;
+    overflow-x: hidden;
+    height: 170px;
 }
 
 .certification-slider .certification-list::state(webkit-scrollbar){
