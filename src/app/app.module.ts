@@ -16,6 +16,7 @@ import { ProjectsApp } from './components/project/projects.component';
 import { SoftSkillItemApp } from './components/skill/softSkillItem/softSkillItem.component';
 import { ProjectItemApp } from './components/project/projectItem/projectItem.component';
 import { ItemCetificationApp } from './components/resume/item-certification/item-certification.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ItemCetificationApp } from './components/resume/item-certification/item
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

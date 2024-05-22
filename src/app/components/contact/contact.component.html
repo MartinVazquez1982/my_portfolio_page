@@ -4,13 +4,13 @@
         <hr>
     </div>
     <p class="text">Let's make a team!</p>
-    <form class="sendMessage">
+    <form class="sendMessage" [formGroup]="form" (submit)="sendEmail()">
         <div class="div-name-email">
-            <input class="imp-message inp-email-name" placeholder="Your Name">
-            <input class="imp-message inp-email-name" placeholder="Your Email">
+            <input formControlName="from_name" class="imp-message inp-email-name" placeholder="Your Name">
+            <input formControlName="from_email" class="imp-message inp-email-name" placeholder="Your Email">
         </div>
-        <input class="imp-message" placeholder="Subject">
-        <textarea class="message" placeholder="Message" rows="8" formControlName="message"></textarea>
+        <input formControlName="from_subject" class="imp-message" placeholder="Subject">
+        <textarea formControlName="message" class="message" placeholder="Message" rows="8" formControlName="message"></textarea>
         <button type="submit" title="Send Message" class="btn">Send Message</button>
     </form>
 </div>
