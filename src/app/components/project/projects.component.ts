@@ -15,9 +15,7 @@ export class ProjectsApp {
     buttons: boolean[] = [true, false];
     button_press: number = 0;
 
-    constructor(){
-        console.log('pase')
-    }
+    constructor(){}
 
 
     onClickButton(event: MouseEvent){

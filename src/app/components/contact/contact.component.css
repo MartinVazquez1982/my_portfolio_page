@@ -91,3 +91,19 @@ button {
   button:hover {
     box-shadow: inset 0px 0px 25px var(--orange-color);
   }
+
+@media only screen and (max-width: 700px) {
+    .div-name-email{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inp-email-name{
+        width: 98%;
+    }
+
+    button {
+        width: 130px;
+    }
+}

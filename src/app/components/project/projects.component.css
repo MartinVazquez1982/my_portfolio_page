@@ -58,3 +58,9 @@
 .project-item{
     margin: 10px 0;
 }
+
+@media only screen and (max-width: 700px) {
+    .project-button, .project-button-press{
+        width: 30%; 
+    }
+}
