@@ -132,3 +132,23 @@ header{
       transform: rotateZ(-45deg) translate(-7px, 5px);
     }
   }
+
+  @media only screen and (max-width: 1200px) {
+  
+    .body-cv{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .personal-info{
+      position:static;
+      width: 95%;
+    }
+
+    .info{
+      width: 95%;
+      margin-top: 10px;
+    }
+
+  }
