@@ -26,6 +26,7 @@
 
 header{
     padding: 25px 0;
+    height: 7rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -37,53 +38,97 @@ header{
 }
 
 .hamburger {
-    height: 50px;
-    width: 50px;
-    margin-right: 10%;
-    transform: 0.2s;
-    position: relative;
-    background-color: var(--background-secundary);
-    border-radius: 10px;
-    margin-top: 3rem;
+    display: none;
+}
+
+
+  @media only screen and (max-width: 1400px) {
+
+    /*Elements*/
+
+    .personal-info{
+      width: 27%;
+    }
+
+    .info{
+      width: 68%;
+      margin-top: 10.8%;
+    }
+
+    .sidebar{
+      display: none;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-25%);
+      }
+      to {
+        transform: translateY(0);
+      }
+    }
+
+    .container-burger{
+      position: relative;
+    }
+     
+    .hamburger-menu{
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      animation: slideIn 1s ease-out;
+    }
+    
+    /*Hamburger boton*/
+    
+    .hamburger {
+      display: block;
+      height: 50px;
+      width: 50px;
+      margin-right: 1%;
+      transform: 0.2s;
+      position: relative;
+      background-color: var(--background-secundary);
+      border-radius: 10px;
+    }
+    .hamburger .checkbox {
+      position: absolute;
+      opacity: 0;
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+    }
+    .line {
+      transition: 0.5s;
+      stroke-width: 6px;
+      stroke: var(--orange-color);
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    }
+    .lineTop {
+      stroke-dasharray: 40 40;
+      stroke-dashoffset: 25;
+    }
+    .lineBottom {
+      stroke-dasharray: 40 40;
+      stroke-dashoffset: 60;
+    }
+    .lineMid {
+      stroke-dasharray: 40 40;
+    }
+    .hamburger .checkbox:checked + svg .line {
+      stroke: var(--orange-color);
+    }
+    .hamburger .checkbox:checked + svg .lineTop {
+      stroke-dashoffset: 0;
+      transform-origin: left;
+      transform: rotateZ(45deg) translate(-7px, -5px);
+    }
+    .hamburger .checkbox:checked + svg .lineMid {
+      stroke-dashoffset: 40;
+    }
+    .hamburger .checkbox:checked + svg .lineBottom {
+      stroke-dashoffset: 0;
+      transform-origin: left;
+      transform: rotateZ(-45deg) translate(-7px, 5px);
+    }
   }
-  .hamburger .checkbox {
-    position: absolute;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-  }
-  .line {
-    transition: 0.5s;
-    stroke-width: 6px;
-    stroke: var(--orange-color);
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
-  }
-  .lineTop {
-    stroke-dasharray: 40 40;
-    stroke-dashoffset: 25;
-  }
-  .lineBottom {
-    stroke-dasharray: 40 40;
-    stroke-dashoffset: 60;
-  }
-  .lineMid {
-    stroke-dasharray: 40 40;
-  }
-  .hamburger .checkbox:checked + svg .line {
-    stroke: var(--orange-color);
-  }
-  .hamburger .checkbox:checked + svg .lineTop {
-    stroke-dashoffset: 0;
-    transform-origin: left;
-    transform: rotateZ(45deg) translate(-7px, -5px);
-  }
-  .hamburger .checkbox:checked + svg .lineMid {
-    stroke-dashoffset: 40;
-  }
-  .hamburger .checkbox:checked + svg .lineBottom {
-    stroke-dashoffset: 0;
-    transform-origin: left;
-    transform: rotateZ(-45deg) translate(-7px, 5px);
-  }
-  

@@ -1,0 +1,40 @@
+.container-burger-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+.container-burger{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-container);
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+    font-family: 'gentiumPlus-bold';
+    font-size: 1.5rem;
+
+    margin: 10px 0;
+}
+
+button:hover{
+    color: var(--orange-color);
+}
+
+button hr{
+    background-color: var(--background-container);
+    width: inherit;
+    margin: 0;
+}
+
+button:hover hr{
+    background-color: var(--orange-color);
+}

@@ -1,7 +1,7 @@
 <main>
   <header>
     <div class="hamburger" title="Menu">
-      <input class="checkbox" type="checkbox" />
+      <input class="checkbox" type="checkbox" [(ngModel)]="burgerMenu"/>
       <svg fill="none" viewBox="0 0 50 50" height="50" width="50">
         <path
           class="lineTop line"
@@ -27,6 +27,9 @@
       </svg>
     </div>
   </header>
+  <section class="container-burger">
+    <app-burgerMenu *ngIf="burgerMenu" class="hamburger-menu"></app-burgerMenu>
+  </section>
   <section class="body-cv">
     <section class="personal-info">
       <app-pi></app-pi>
