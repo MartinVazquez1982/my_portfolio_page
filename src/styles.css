@@ -13,6 +13,11 @@
   src: url('./assets/fonts/GentiumPlus-BoldItalic.ttf');
 }
 
+@font-face {
+  font-family: 'gentiumPlus-regular';
+  src: url('./assets/fonts/GentiumPlus-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
