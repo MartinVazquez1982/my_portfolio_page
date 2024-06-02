@@ -1,4 +1,5 @@
-import { Component, HostListener } from '@angular/core';
+import { Component } from '@angular/core';
+import { SeeBurgerMenu } from '../services/seeBurgerMenu'
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,8 @@ import { Component, HostListener } from '@angular/core';
 })
 
 export class AppComponent {
-  
-  burgerMenu: boolean = false;
 
   title = 'my_portfolio_code';
 
-  viewMenu() {
-    this.burgerMenu = ! this.burgerMenu;
-  }
+  constructor(public seeBurgerMenu: SeeBurgerMenu){}
 }

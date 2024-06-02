@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { SeeBurgerMenu } from '../../../services/seeBurgerMenu'
 
 @Component({
     selector: 'app-burgerMenu',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
 
 export class BurgerMenuApp {
   
-    constructor(private router: Router){
+    constructor(private router: Router, public seeBurgerMenu: SeeBurgerMenu){
 
     }
 
@@ -18,5 +19,6 @@ export class BurgerMenuApp {
             this.router.navigate([ruta]);
             window.scrollTo(0, 0);
         }
+        this.seeBurgerMenu.seeBurgerMenu = ! this.seeBurgerMenu.seeBurgerMenu
     }
 }
