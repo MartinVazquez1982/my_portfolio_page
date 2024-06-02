@@ -34,44 +34,20 @@
     margin: 10px 0;
 }
 
-.certification{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden; 
-    padding-top: 10px;
-}
-
-.certification:hover{
-    transform: scale(1.1); /* Amplía la tarjeta un 10% */
-    transition: transform 0.3s ease-in-out;
-    overflow: visible;
-}
-
-
-
 .certification-slider{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-    margin: 15px 0;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
 .certification-slider .certification-list{
-    display: grid;
-    gap: 30px;
-    scrollbar-width: none;
+    display: flex;
     overflow-x: hidden;
-    height: 170px;
-}
-
-.certification-slider .certification-list::state(webkit-scrollbar){
-    display: none;
-}
-
-.certification-slider .certification-list .certification{
-    object-fit: cover;
+    white-space: nowrap;
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .button-certification{
@@ -88,6 +64,7 @@
     cursor: pointer;
 }
 
+
 .button-certification:hover{
     background-color: #999999;
 }
@@ -97,55 +74,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container-scrollbar{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.slider-scrollbar{
-    height: 24px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-}
-
-.scrollbar-track{
-    position: relative;
-    height: 2px;
-    width: 100%;
-    background-color: var(--white-color);
-    border-radius: 4px;
-}
-
-.slider-scrollbar:hover .scrollbar-track{
-    height: 4px;
-}
-
-.slider-scrollbar .scrollbar-track:active{
-    cursor: grabbing;
-    height: 8px;
-    top: -2px;
-}
-
-.scrollbar-thumb{
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    background-color: var(--orange-color);
-    border-radius: inherit;
-    cursor: grab;
-}
-
-.scrollbar-thumb::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -10px;
-    bottom: -10px;
 }
 
 @media only screen and (max-width: 700px) {

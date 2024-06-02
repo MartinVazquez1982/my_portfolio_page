@@ -1,4 +1,4 @@
-<div class="conteiner">
+<div #resumeContainer class="conteiner">
     <div class="conteiner-title">
         <h1 class="title">Resume</h1>
         <hr>
@@ -75,11 +75,11 @@
     </div>
     <div class="certification-slider">
         <div class="container-button"> 
-            <button id="button-left" class="button-certification">
+            <button id="button-left" class="button-certification" (click)="scrollLeft()">
                 <img src="../../../assets/resume/left.svg" alt="left">
             </button>
         </div>
-        <div class="certification-list">
+        <div #sliderContainer class="certification-list">
             <app-item-certification
                 class="certification"
                 *ngFor="let item of items.certifications"
@@ -87,16 +87,9 @@
             ></app-item-certification>
         </div>
         <div class="container-button">
-            <button id="button-right" class="button-certification">
+            <button id="button-right" class="button-certification" (click)="scrollRight()">
                 <img src="../../../assets/resume/right.svg" alt="left">
             </button>
-        </div>
-    </div>
-    <div class="container-scrollbar">
-        <div class="slider-scrollbar">
-            <div class="scrollbar-track">
-                <div class="scrollbar-thumb"></div>
-            </div>
         </div>
     </div>
 </div>

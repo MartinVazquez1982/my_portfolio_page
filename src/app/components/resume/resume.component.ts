@@ -1,4 +1,4 @@
-import { Component, OnInit  } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef, HostListener, Renderer2 } from '@angular/core';
 import * as data from '../../../data/resume.json';
 import { ResumeData } from '../../../interfaces/interfaces';
 import { repeat } from 'rxjs';
@@ -9,67 +9,60 @@ import { repeat } from 'rxjs';
     styleUrls: ['./resume.component.css', '../../../styles.css']
 })
 
-export class ResumeApp implements OnInit {
+export class ResumeApp implements AfterViewInit{
 
+    @ViewChild('sliderContainer', { read: ElementRef }) sliderContainer!: ElementRef;
+    @ViewChild('resumeContainer', { read: ElementRef }) resumeContainer!: ElementRef;
     items: ResumeData = data;
+    sizeItemCertification: number = 170;
 
+    constructor(private renderer: Renderer2) {}
 
-    ngOnInit(): void {
+    ngAfterViewInit(): void {
+        this.onResize();
+      }
 
-        const elements = document.getElementsByClassName('certification-list');
-        if (elements.length > 0) {
-            const element = elements[0] as HTMLElement;
-            element.style.gridTemplateColumns=`repeat(${this.items.certifications.length},135px)`;
-        }
+    scrollLeft(): void {
+        this.smoothScroll(this.sliderContainer.nativeElement, -this.sizeItemCertification, 300);
+    }
+    
+    scrollRight(): void {
+        this.smoothScroll(this.sliderContainer.nativeElement, this.sizeItemCertification, 300);
+    }
+    
+    smoothScroll(element: HTMLElement, change: number, duration: number): void {
+        const start = element.scrollLeft;
+        const increment = 20;
+        let currentTime = 0;
 
-        const imageList = document.querySelectorAll('.certification-slider .certification-list') as NodeListOf<HTMLElement>;
-        const slideScrollbar = document.querySelector('.slider-scrollbar') as HTMLElement;
-        const scrollbarThumb = slideScrollbar.querySelector('.scrollbar-thumb') as HTMLElement;
-        const slideButtons = document.querySelectorAll('.button-certification')  as NodeListOf<HTMLElement>;
-        const maxScrollLeft = imageList[0].scrollWidth - imageList[0].clientWidth;
-        
-        scrollbarThumb.addEventListener('mousedown', (e) => {
-            const startX = e.clientX;
-            const thumbPosition = scrollbarThumb.offsetLeft;
-
-            const handleMouseMove = (e: MouseEvent) => {
-                const deltaX = e.clientX - startX;
-                const newThumbPosition = thumbPosition + deltaX;
-                const maxThumbPosition = slideScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
-
-                const boundedPosition = Math.max(0, Math.min(maxThumbPosition,newThumbPosition));
-                const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
-
-                scrollbarThumb.style.left = `${boundedPosition}px`;
-                imageList[0].scrollLeft = scrollPosition;
+        const animateScroll = () => {
+            currentTime += increment;
+            const val = this.easeInOutQuad(currentTime, start, change, duration);
+            element.scrollLeft = val;
+            if (currentTime < duration) {
+                window.requestAnimationFrame(animateScroll);
             }
+        };
+    
+        animateScroll();
+    }
+    
+    easeInOutQuad(t: number, b: number, c: number, d: number): number {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+    }
 
-            const handleMouseUp = () => {
-                document.removeEventListener('mousemove', handleMouseMove);
-                document.removeEventListener('mouseup', handleMouseUp);
-            }
-
-            document.addEventListener('mousemove', handleMouseMove);
-            document.addEventListener('mouseup', handleMouseUp);
-        });
-
-        slideButtons.forEach(button => {
-            button.addEventListener('click', () =>{
-                const direction = button.id === 'button-left'? -1 : 1;
-                const scrollAmount = imageList[0].clientWidth * direction;
-                imageList[0].scrollBy({left: scrollAmount, behavior: "smooth"});
-            })
-        });
-
-        const updateScrollThumbPosition = () => {
-            const scrollPosition = imageList[0].scrollLeft;
-            const thumbPosition = (scrollPosition / maxScrollLeft) * (slideScrollbar.clientWidth - scrollbarThumb.offsetWidth);
-            scrollbarThumb.style.left = `${thumbPosition}px`;
+    @HostListener('window:resize', ['$event'])
+    onResize(event?: Event): void {
+        const windowWidth = this.resumeContainer.nativeElement.offsetWidth - 200;
+        let cantItem = Math.floor(windowWidth / this.sizeItemCertification);
+        if (cantItem === 0){
+            cantItem = 1;
         }
-
-        imageList[0].addEventListener('scroll', () => {
-            updateScrollThumbPosition();
-        });
+        const sizeSlider = (cantItem * this.sizeItemCertification) + 'px';
+        this.renderer.setStyle(this.sliderContainer.nativeElement, 'width', sizeSlider);
     }
 
 }

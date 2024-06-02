@@ -7,7 +7,9 @@
     align-items: center;
 
     text-decoration: none;
-
+    word-wrap: break-word; 
+    white-space: normal;
+    margin: 0 10px;
 }
 
 .conteiner-certification img{
