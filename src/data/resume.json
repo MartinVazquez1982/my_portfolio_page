@@ -23,27 +23,27 @@
     ],
     "certifications":[
         {
-            "img":"../../../../assets/resume/certifications/nvidia.jpg",
+            "img":"assets/resume/certifications/nvidia.jpg",
             "title":"Fundamentals of Deep Learning",
             "link":"https://courses.nvidia.com/certificates/1bbf2d0e40e84ebeb4ff21193eafdf33/"
         },
         {
-            "img":"../../../../assets/resume/certifications/nvidia.jpg",
+            "img":"assets/resume/certifications/nvidia.jpg",
             "title":"Generative AI with Diffusion Models",
             "link":"https://courses.nvidia.com/certificates/6b4a18aad6964465ab722c8a69c53ef9/"
         },
         {
-            "img":"../../../../assets/resume/certifications/nvidia.jpg",
+            "img":"assets/resume/certifications/nvidia.jpg",
             "title":"Building Transformer-Based Natural Language Processing Applications",
             "link":"https://courses.nvidia.com/certificates/81fe2f3c07654fdfa391deb32ecbd6d4/"
         },
         {
-            "img":"../../../../assets/resume/certifications/desafioLatam.jpg",
+            "img":"assets/resume/certifications/desafioLatam.jpg",
             "title":"Bases de Git, GitHub",
             "link":"https://cursos.desafiolatam.com/certificates/gaqrwwunav"
         },
         {
-            "img":"../../../../assets/resume/certifications/desafioLatam.jpg",
+            "img":"assets/resume/certifications/desafioLatam.jpg",
             "title":"Python para análisis de datos",
             "link":"https://cursos.desafiolatam.com/certificates/i2qmayfqkp"
         }

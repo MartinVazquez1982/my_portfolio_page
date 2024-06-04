@@ -2,60 +2,60 @@
     "academy":
     [
         {
-            "img":"../../../../assets/projects/backgroundImages/botTrading.jpg",
+            "img":"assets/projects/backgroundImages/botTrading.jpg",
             "title": "Tradingbot",
             "links": [
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/MartinVazquez1982/trading_algorithm_bot",
                     "name":"Github"
                 }
             ]
         },
         {
-            "img":"../../../../assets/projects/backgroundImages/chatbot.jpg",
+            "img":"assets/projects/backgroundImages/chatbot.jpg",
             "title": "Chatbot",
             "links": [
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/MartinVazquez1982/Chatbot",
                     "name":"Github"
                 }
             ]
         },
         {
-            "img":"../../../../assets/projects/backgroundImages/compilador.jpg",
+            "img":"assets/projects/backgroundImages/compilador.jpg",
             "title": "Compiler",
             "links": [
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/MartinVazquez1982/compilerProject",
                     "name":"Github"
                 }
             ]
         },
         {
-            "img":"../../../../assets/projects/backgroundImages/procesador.jpg",
+            "img":"assets/projects/backgroundImages/procesador.jpg",
             "title": "Processor",
             "links": [
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/MartinVazquez1982/pipelined-MIPS-processor",
                     "name":"Github"
                 }
             ]
         },
         {
-            "img":"../../../../assets/projects/backgroundImages/recetasCocina.jpg",
+            "img":"assets/projects/backgroundImages/recetasCocina.jpg",
             "title": "Recipe book of the world",
             "links": [
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
                     "name":"Github (Backend)"
                 },
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/juanfraherrero/Recetario_del_mundo",
                     "name":"Github (Frontend)"
                 }
@@ -64,11 +64,11 @@
     ],
     "others":[
         {
-            "img":"../../../../assets/projects/backgroundImages/portfolioWeb.jpg",
+            "img":"assets/projects/backgroundImages/portfolioWeb.jpg",
             "title": "My portfolio Web",
             "links": [
                 {
-                    "logo":"../../../../assets/projects/linksimages/github.svg",
+                    "logo":"assets/projects/linksimages/github.svg",
                     "link":"https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
                     "name":"Github"
                 }
