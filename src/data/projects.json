@@ -2,7 +2,7 @@
     "academy":
     [
         {
-            "img":"assets/projects/backgroundImages/botTrading.jpg",
+            "img":"assets/projects/backgroundImages/botTrading.webp",
             "title": "Tradingbot",
             "links": [
                 {
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "img":"assets/projects/backgroundImages/chatbot.jpg",
+            "img":"assets/projects/backgroundImages/chatbot.webp",
             "title": "Chatbot",
             "links": [
                 {
@@ -24,7 +24,7 @@
             ]
         },
         {
-            "img":"assets/projects/backgroundImages/compilador.jpg",
+            "img":"assets/projects/backgroundImages/compilador.webp",
             "title": "Compiler",
             "links": [
                 {
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "img":"assets/projects/backgroundImages/procesador.jpg",
+            "img":"assets/projects/backgroundImages/procesador.webp",
             "title": "Processor",
             "links": [
                 {
@@ -46,7 +46,7 @@
             ]
         },
         {
-            "img":"assets/projects/backgroundImages/recetasCocina.jpg",
+            "img":"assets/projects/backgroundImages/recetasCocina.webp",
             "title": "Recipe book of the world",
             "links": [
                 {
@@ -64,7 +64,7 @@
     ],
     "others":[
         {
-            "img":"assets/projects/backgroundImages/portfolioWeb.jpg",
+            "img":"assets/projects/backgroundImages/portfolioWeb.webp",
             "title": "My portfolio Web",
             "links": [
                 {
