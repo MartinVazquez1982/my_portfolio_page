@@ -60,6 +60,17 @@
                     "name":"Github (Frontend)"
                 }
             ]
+        },
+        {
+            "img":"assets/projects/backgroundImages/acne.webp",
+            "title":"Acne detector",
+            "links":[
+                {
+                    "logo": "assets/projects/linksimages/github.svg",
+                    "link": "https://github.com/MartinVazquez1982/acne_detector",
+                    "name": "Github"
+                }
+            ]
         }
     ],
     "others":[
