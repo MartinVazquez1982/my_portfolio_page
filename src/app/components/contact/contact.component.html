@@ -11,6 +11,10 @@
         </div>
         <input formControlName="from_subject" class="imp-message" placeholder="Subject">
         <textarea formControlName="message" class="message" placeholder="Message" rows="8" formControlName="message"></textarea>
-        <button type="submit" title="Send Message" class="btn">Send Message</button>
+        <div class="loader-send-class">
+            <button *ngIf="! showLoader" type="submit" title="Send Message" class="btn">Send Message</button>
+            <p *ngIf="textOfSend" class="text" id="message-sent">Email sent successfully</p>
+            <app-loader *ngIf="showLoader"></app-loader>
+        </div>
     </form>
 </div>

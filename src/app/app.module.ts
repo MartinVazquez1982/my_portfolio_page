@@ -17,6 +17,7 @@ import { SoftSkillItemApp } from './components/skill/softSkillItem/softSkillItem
 import { ProjectItemApp } from './components/project/projectItem/projectItem.component';
 import { ItemCetificationApp } from './components/resume/item-certification/item-certification.component';
 import { BurgerMenuApp } from './components/burgerMenu/burgerMenu.component';
+import { LoaderApp } from './components/contact/loader/loader.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
@@ -35,7 +36,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SoftSkillItemApp,
     ProjectItemApp,
     ItemCetificationApp,
-    BurgerMenuApp
+    BurgerMenuApp,
+    LoaderApp
   ],
   imports: [
     BrowserModule,
