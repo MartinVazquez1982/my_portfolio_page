@@ -1,18 +1,11 @@
-.container-burger-principal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-  
-
 .container-burger{
-    width: 98%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
     background-color: var(--background-container);
     border-radius: 10px;
+    height: auto;
 }
 
 button{
@@ -37,4 +30,12 @@ button hr{
 
 button:hover hr{
     background-color: var(--orange-color);
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container-burger{
+    flex-direction: column;
+    height: 75vh;
+  }
 }

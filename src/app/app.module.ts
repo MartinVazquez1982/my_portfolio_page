@@ -19,6 +19,8 @@ import { ItemCetificationApp } from './components/resume/item-certification/item
 import { BurgerMenuApp } from './components/burgerMenu/burgerMenu.component';
 import { LoaderApp } from './components/contact/loader/loader.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +45,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

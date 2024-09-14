@@ -1,9 +1,15 @@
+main{
+  position: relative;
+}
+
 .body-cv{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     margin-top: 2rem;
     width: 100%;
+
+    position: relative;
 }
 
 .personal-info{
@@ -15,6 +21,7 @@
 .info{
     width: 65%;
     margin-top: 9.2%;
+    position: relative;
 }
 
 .sidebar{
@@ -38,9 +45,12 @@ header{
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
+#hamburger-1400{
+  display: none;
+}
 
   @media only screen and (max-width: 1400px) {
 
@@ -67,18 +77,38 @@ header{
         transform: translateY(0);
       }
     }
-
-    .container-burger{
-      position: relative;
-    }
      
-    .hamburger-menu{
-      width: 100%;
+
+    #hamburger-1400{
+      display: block;
       position: absolute;
-      z-index: 1;
-      animation: slideIn 1s ease-out;
+      top: 0;
+      left: 30.7%;
+      width: 68%;
+    }
+
+    #hamburger-1200{
+      display: none;
     }
     
+    @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+    }
+
+    @keyframes fadeOut {
+      0% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+    }
+
     /*Hamburger boton*/
     
     .hamburger {
@@ -139,6 +169,7 @@ header{
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 2rem;
     }
 
     .personal-info{
@@ -149,6 +180,35 @@ header{
     .info{
       width: 95%;
       margin-top: 10px;
+    }
+
+    header{
+      padding-bottom: 0px;
+    }
+
+
+    #hamburger-1400{
+      display: none;
+    }
+
+    #hamburger-1200{
+      display: grid;
+      place-items: center;
+      height: 85px;
+
+      #menu{
+        width: 96%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    #hamburger-1200 {
+      height: 0px;
+      #menu{
+        z-index: 1;
+      }
     }
 
   }

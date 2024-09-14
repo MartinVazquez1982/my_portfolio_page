@@ -27,10 +27,11 @@
       </svg>
     </div>
   </header>
-  <section class="container-burger">
-    <app-burgerMenu *ngIf="seeBurgerMenu.seeBurgerMenu" class="hamburger-menu"></app-burgerMenu>
-  </section>
-  <section class="body-cv">
+  <div id="hamburger-1200">
+    <app-burgerMenu [@fadeAnimation]="seeBurgerMenu.seeBurgerMenu ? 'visible' : 'hidden'" id="menu"/>
+  </div>
+  <section class="body-cv" *ngIf="!seeBurgerMenu.seeBurgerMenu || isNotMobile" >
+    <app-burgerMenu id="hamburger-1400" [@fadeAnimation]="seeBurgerMenu.seeBurgerMenu ? 'visible' : 'hidden'" />
     <section class="personal-info">
       <app-pi></app-pi>
     </section>
