@@ -1,34 +1,44 @@
 <div class="conteiner">
-    <div class="conteiner-title">
-        <h1 class="title">Projects</h1>
-        <hr>
-    </div>
-    <div class="projects-buttons-list">
-        <button
-            id="0"
-            [ngClass]="{'project-button-press': buttons[0], 'project-button': !buttons[0]}"
-            (click)="onClickButton($event)"
-        >Academics</button>
-        <button
-            id="1"
-            [ngClass]="{'project-button-press': buttons[1], 'project-button': !buttons[1]}"
-            (click)="onClickButton($event)"
-        >Others</button>
-    </div>
-    <div class="projects-container">
-        <div *ngIf="buttons[0]" class="project-list">
-            <app-projectItem
-                class="project-item"
-                *ngFor="let item of items.academy" 
-                [item_project]=item
-            ></app-projectItem>
-        </div>
-        <div *ngIf="buttons[1]" class="project-list">
-            <app-projectItem
-                class="project-item"
-                *ngFor="let item of items.others" 
-                [item_project]=item
-            ></app-projectItem>
-        </div>
-    </div>
+	<div class="conteiner-title">
+		<h1 class="title">Projects</h1>
+		<hr>
+	</div>
+	<div class="projects-buttons-list">
+		<button
+			id="0"
+			[ngClass]="{'project-button-press': buttons[0], 'project-button': !buttons[0]}"
+			(click)="onClickButton($event)"
+		>Academics</button>
+		<button
+			id="1"
+			[ngClass]="{'project-button-press': buttons[1], 'project-button': !buttons[1]}"
+			(click)="onClickButton($event)"
+		>Others</button>
+	</div>
+	<div class="projects-container">
+		<div *ngIf="buttons[0]">
+			<div 
+				class="project-list"
+				*ngFor="let list of items.academy"
+			>
+				<app-projectItem
+						class="project-item"
+						*ngFor="let item of list" 
+						[item_project]=item
+				></app-projectItem>
+			</div>
+		</div>
+		<div *ngIf="buttons[1]">
+			<div 
+				class="project-list"
+				*ngFor="let list of items.others"
+			>
+				<app-projectItem
+					class="project-item"
+					*ngFor="let item of list" 
+					[item_project]=item
+				></app-projectItem>
+			</div>
+		</div>
+	</div>
 </div>
