@@ -15,6 +15,7 @@ import { TechnicalItemApp } from './components/skill/technicalItem/technicalItem
 import { ProjectsApp } from './components/project/projects.component';
 import { SoftSkillItemApp } from './components/skill/softSkillItem/softSkillItem.component';
 import { ProjectItemApp } from './components/project/projectItem/projectItem.component';
+import { ProjectListApp } from './components/project/projectList/projectList.component';
 import { ItemCetificationApp } from './components/resume/item-certification/item-certification.component';
 import { BurgerMenuApp } from './components/burgerMenu/burgerMenu.component';
 import { LoaderApp } from './components/contact/loader/loader.component';
@@ -39,7 +40,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectItemApp,
     ItemCetificationApp,
     BurgerMenuApp,
-    LoaderApp
+    LoaderApp,
+    ProjectListApp
   ],
   imports: [
     BrowserModule,

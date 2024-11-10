@@ -16,29 +16,13 @@
 		>Others</button>
 	</div>
 	<div class="projects-container">
-		<div *ngIf="buttons[0]">
-			<div 
-				class="project-list"
-				*ngFor="let list of items.academy"
-			>
-				<app-projectItem
-						class="project-item"
-						*ngFor="let item of list" 
-						[item_project]=item
-				></app-projectItem>
-			</div>
-		</div>
-		<div *ngIf="buttons[1]">
-			<div 
-				class="project-list"
-				*ngFor="let list of items.others"
-			>
-				<app-projectItem
-					class="project-item"
-					*ngFor="let item of list" 
-					[item_project]=item
-				></app-projectItem>
-			</div>
-		</div>
+		<app-projectList
+			[active]="buttons[0]"
+			[projects]="items.academy"
+		></app-projectList>
+		<app-projectList
+			[active]="buttons[1]"
+			[projects]="items.others"
+		></app-projectList>
 	</div>
 </div>

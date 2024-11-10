@@ -1,90 +1,115 @@
 {
-    "academy":
-    [
-        {
-            "img":"assets/projects/backgroundImages/botTrading.webp",
-            "title": "Tradingbot",
-            "links": [
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/MartinVazquez1982/trading_algorithm_bot",
-                    "name":"Github"
-                }
-            ]
-        },
-        {
-            "img":"assets/projects/backgroundImages/chatbot.webp",
-            "title": "Chatbot",
-            "links": [
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/MartinVazquez1982/Chatbot",
-                    "name":"Github"
-                }
-            ]
-        },
-        {
-            "img":"assets/projects/backgroundImages/compilador.webp",
-            "title": "Compiler",
-            "links": [
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/MartinVazquez1982/compilerProject",
-                    "name":"Github"
-                }
-            ]
-        },
-        {
-            "img":"assets/projects/backgroundImages/procesador.webp",
-            "title": "Processor",
-            "links": [
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/MartinVazquez1982/pipelined-MIPS-processor",
-                    "name":"Github"
-                }
-            ]
-        },
-        {
-            "img":"assets/projects/backgroundImages/recetasCocina.webp",
-            "title": "Recipe book of the world",
-            "links": [
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
-                    "name":"Github (Backend)"
-                },
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/juanfraherrero/Recetario_del_mundo",
-                    "name":"Github (Frontend)"
-                }
-            ]
-        },
-        {
-            "img":"assets/projects/backgroundImages/acne.webp",
-            "title":"Acne detector",
-            "links":[
-                {
-                    "logo": "assets/projects/linksimages/github.svg",
-                    "link": "https://github.com/MartinVazquez1982/acne_detector",
-                    "name": "Github"
-                }
-            ]
-        }
-    ],
-    "others":[
-        {
-            "img":"assets/projects/backgroundImages/portfolioWeb.webp",
-            "title": "My portfolio Web",
-            "links": [
-                {
-                    "logo":"assets/projects/linksimages/github.svg",
-                    "link":"https://github.com/MartinVazquez1982/my_portfolio_page",
-                    "name":"Github"
-                }
-            ]
-        }
-    ]
-
+	"academy": [
+		{
+			"img":"assets/projects/backgroundImages/recetasCocina.webp",
+			"title": "Recipe book of the world",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
+					"name":"Github (Backend)"
+				},
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/juanfraherrero/Recetario_del_mundo",
+					"name":"Github (Frontend)"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/botTrading.webp",
+			"title": "Tradingbot",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/trading_algorithm_bot",
+					"name":"Github"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/chatbot.webp",
+			"title": "Chatbot",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/Chatbot",
+					"name":"Github"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/compilador.webp",
+			"title": "Compiler",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/compilerProject",
+					"name":"Github"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/procesador.webp",
+			"title": "Processor",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/pipelined-MIPS-processor",
+					"name":"Github"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/recomendador1.png",
+			"title": "Trigonometry Problem Recommender",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/colab.svg",
+					"link":"https://colab.research.google.com/drive/1sfrxiE_yKhG3bVeqYWfvodRr9KxC_OnX?usp=sharing",
+					"name":"Google Colab"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/acne.webp",
+			"title":"Acne detector",
+			"links":[
+				{
+					"logo": "assets/projects/linksimages/github.svg",
+					"link": "https://github.com/MartinVazquez1982/acne_detector",
+					"name": "Github"
+				}
+			]
+		}
+	],
+	"others": [
+		{
+			"img":"assets/projects/backgroundImages/portfolioWeb.webp",
+			"title": "My portfolio Web",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/my_portfolio_page",
+					"name":"Github"
+				}
+			]
+		},
+		{
+			"img":"assets/projects/backgroundImages/calculadora.webp",
+			"title": "Simple Calculator",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/simple-calculator",
+					"name":"Github"
+				},
+				{
+					"logo":"assets/projects/linksimages/link.svg",
+					"link":"https://martinvazquez1982.github.io/simple-calculator/",
+					"name":"Page"
+				}
+			]
+		}
+	]
 }

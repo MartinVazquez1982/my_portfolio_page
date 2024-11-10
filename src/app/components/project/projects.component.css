@@ -38,47 +38,8 @@
     margin-top: 30px;
 }
 
-.project-list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin: 20px;
-    animation: zoomIn 1s ease-in-out; 
-    justify-items: center;
-    align-items: center;
-}
-
-@keyframes zoomIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-.project-item{
-    margin: 10px 0;
-}
-
 @media only screen and (max-width: 700px) {
     .project-button, .project-button-press{
         width: 30%; 
-    }
-}
-
-@media  only screen and (max-width: 1500px) {
-    .project-list{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-}
-
-@media  only screen and (max-width: 680px) {
-    .project-list{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto
     }
 }
