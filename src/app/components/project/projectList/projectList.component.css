@@ -1,0 +1,70 @@
+.project-list{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 20px;
+	animation: zoomIn 1s ease-in-out; 
+	justify-items: center;
+	align-items: center;
+}
+
+#buttons{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	gap: 10px;
+	height: 30px;
+
+	button{
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		border: 2px solid var(--orange-color);
+		cursor: pointer;
+	}
+
+	button.current{
+		background-color: var(--orange-color);
+	}
+
+	button.no-current{
+		background-color: transparent;
+	}
+}
+
+@keyframes zoomIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.project-item{
+	margin: 10px 0;
+}
+
+@media  only screen and (max-width: 1500px) {
+	.project-list{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		margin: 0px 20px;
+	}
+}
+
+@media  only screen and (max-width: 1200px) {
+	.project-list{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+	}
+}
+
+@media  only screen and (max-width: 680px) {
+	.project-list{
+		grid-template-columns: 1fr;
+		grid-template-rows: auto
+	}
+}

@@ -35,8 +35,8 @@ export interface TechnicalSkill{
 // Project Interfaces
 
 export interface ProjectList{
-    academy: Project[],
-    others: Project[]
+    academy: Project[][],
+    others: Project[][]
 }
 
 export interface Project{
