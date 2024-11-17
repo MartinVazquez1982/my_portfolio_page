@@ -31,13 +31,27 @@
         {
             "img": "assets/skills/technicals/python.svg",
             "title": "Python"
+        },
+        {
+            "img": "assets/skills/technicals/docker.svg",
+            "title": "Docker"
+        },
+        {
+            "img": "assets/skills/technicals/anaconda.svg",
+            "title": "Anaconda"
+        },
+        {
+            "img": "assets/skills/technicals/react.svg",
+            "title": "React"
+        },
+        {
+            "img": "assets/skills/technicals/spring-boot.svg",
+            "title": "Spring boot"
         }
     ],
     "softs":[
         "Teamwork",
-        "Creativity",
         "Communication",
-        "Dedication",
         "Critical thinking",
         "Leadership",
         "Adaptability",
