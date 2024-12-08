@@ -1,21 +1,27 @@
 {
     "education":[
         {
+            "date":"March 2020 - October 2024",
+            "title":"System engineering",
+            "institure":"UNICEN",
+            "description":"The Systems Engineer: Versatile professional skilled in math, comp sci, architecture, software engineering, management, and signal processing. Applies expertise effectively, advances the field through innovation, research, and development."
+        },
+        {
             "date":"March 2020 - February 2023",
             "title":"University prog. analyst",
             "institure":"UNICEN",
             "description":"The UPA: Proficient in software dev, adaptable in diverse workplaces, drives societal impact through system enhancement."
-        },
-        {
-            "date":"March 2020 - Present",
-            "title":"System engineering",
-            "institure":"UNICEN",
-            "description":"The Systems Engineer: Versatile professional skilled in math, comp sci, architecture, software engineering, management, and signal processing. Applies expertise effectively, advances the field through innovation, research, and development."
         }
     ],
     "experience":[
         {
-            "date":"March 2024 - June 2024",
+            "date":"August 2024 - Present",
+            "title":"Trading Algorithm Developer",
+            "institure":"TradeSpark",
+            "description":"Develop and enhance functionalities for algorithmic trading on ArQuants, implementing strategies, optimizing code, performing testing, and collaborating with the team to innovate in capital market solutions."
+        },
+        {
+            "date":"March 2024 - Present",
             "title":"Asistant Teacher - OOP",
             "institure":"UNICEN",
             "description":"As a TA in object-oriented programming, facilitates student learning, communicates tech concepts effectively, enhances communication skills, reinforces personal understanding, and strengthens learning in Computer Science."
