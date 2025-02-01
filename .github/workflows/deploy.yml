@@ -23,12 +23,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Paso 4: Compilar la aplicación Angular
-      - name: Build Angular App
-        run: npm run build -- --base-href=/my_portfolio_page/
-
-      # Paso 5: Desplegar en GitHub Pages usando el token
+      # Paso 4: Desplegar a GitHub Pages
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/my-portfolio-code
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          CI: true
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: npm run deploy
