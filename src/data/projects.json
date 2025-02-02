@@ -96,6 +96,22 @@
 			]
 		},
 		{
+			"img":"assets/projects/backgroundImages/realTimeChat.png",
+			"title": "Real Time Chat",
+			"links": [
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/real-time-chat-front",
+					"name":"Github (Frontend)"
+				},
+				{
+					"logo":"assets/projects/linksimages/github.svg",
+					"link":"https://github.com/MartinVazquez1982/real-time-chat-back",
+					"name":"Github (Backend)"
+				}
+			]
+		},
+		{
 			"img":"assets/projects/backgroundImages/calculadora.webp",
 			"title": "Simple Calculator",
 			"links": [
