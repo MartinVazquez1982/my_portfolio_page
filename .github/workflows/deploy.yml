@@ -34,4 +34,4 @@ jobs:
         env:
           CI: true
           DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
-        run: npm run deploy
+        run: npx angular-cli-ghpages --dir=dist/my_portfolio_code --repo=https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/${{ github.repository }}.git --branch=gh-pages
