@@ -1,28 +1,4 @@
 <div class="conteiner">
-	<div class="conteiner-title">
-		<h1 class="title">Projects</h1>
-		<hr>
-	</div>
-	<div class="projects-buttons-list">
-		<button
-			id="0"
-			[ngClass]="{'project-button-press': buttons[0], 'project-button': !buttons[0]}"
-			(click)="onClickButton($event)"
-		>Academics</button>
-		<button
-			id="1"
-			[ngClass]="{'project-button-press': buttons[1], 'project-button': !buttons[1]}"
-			(click)="onClickButton($event)"
-		>Others</button>
-	</div>
-	<div class="projects-container">
-		<app-projectList
-			[active]="buttons[0]"
-			[projects]="items.academy"
-		></app-projectList>
-		<app-projectList
-			[active]="buttons[1]"
-			[projects]="items.others"
-		></app-projectList>
-	</div>
+	<app-section-title title="Projects"></app-section-title>
+	<app-projectList></app-projectList>
 </div>

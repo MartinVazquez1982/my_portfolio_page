@@ -19,6 +19,7 @@ import { ProjectListApp } from './components/project/projectList/projectList.com
 import { ItemCetificationApp } from './components/resume/item-certification/item-certification.component';
 import { BurgerMenuApp } from './components/burgerMenu/burgerMenu.component';
 import { LoaderApp } from './components/contact/loader/loader.component';
+import { SectionTitleApp } from './components/section-title/section-title.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -41,7 +42,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ItemCetificationApp,
     BurgerMenuApp,
     LoaderApp,
-    ProjectListApp
+    ProjectListApp,
+    SectionTitleApp
   ],
   imports: [
     BrowserModule,
