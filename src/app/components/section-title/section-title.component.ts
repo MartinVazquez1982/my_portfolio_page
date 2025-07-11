@@ -9,5 +9,6 @@ import { Component, Input } from '@angular/core';
 export class SectionTitleApp {
   
     @Input() title: string = "";
+    @Input() secundaryTitle: boolean = false;
 
 }

@@ -1,15 +1,15 @@
 <div class="card">
-  <img class="img-principal" src="{{ item_project.img }}" alt="">
-  <div class="card__content">
-    <p class="card__title">{{ item_project.title }}</p>
-    <div class="link-list">
-      <a 
-        *ngFor="let link of item_project.links"
-        href="{{ link.link }}" 
-        target="_blank"
-        title="{{ link.name }}">
-        <img src="{{ link.logo }}" alt="{{ link.name }}">
-      </a>
-    </div>
+  <h3>Recipe book of the world</h3>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi placeat nemo accusantium voluptate quas, iure temporibus illum numquam ut quo sapiente distinctio officia. Illo obcaecati natus quod placeat quam earum.</p>
+  <div class="tools">
+    <span class="tool">React</span>
+    <span class="tool">Node.js</span>
+    <span class="tool">Mongo DB</span>
+    <span class="tool">Docker</span>
+    <span class="tool">Mongo DB</span>
+    <span class="tool">Docker</span>
+  </div>
+  <div class="tools">
+    <ng-container *ngComponentOutlet="projectLink"></ng-container>
   </div>
 </div>

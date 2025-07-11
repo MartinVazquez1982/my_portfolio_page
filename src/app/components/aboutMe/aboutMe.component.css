@@ -3,7 +3,6 @@
 }
 
 p{
-    margin: 0px 30px;
     text-align: justify;
     font-family: 'gentiumPlus-bold';
 }
@@ -35,6 +34,15 @@ p{
     width: 50%;
 }
 
+.inspirations{
+    padding-right: 1%;
+} 
+
+.personal-values{
+    padding-left: 1%;
+}
+
+
 .inspirations img, .personal-values img{
     width: 6%;
 }
@@ -48,5 +56,6 @@ p{
 
     .inspirations, .personal-values{
         width: 100%;
+        padding: 0;
     }
 }

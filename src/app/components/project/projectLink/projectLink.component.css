@@ -1,0 +1,14 @@
+a, a:visited {
+  color: var(--orange-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-family: "gentiumPlus-regular";
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+a:hover {
+  color: var(--white-color);
+}

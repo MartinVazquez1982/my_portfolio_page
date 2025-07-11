@@ -2,22 +2,38 @@ div{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 1%;
 }
 
-div hr{
-  height: 3px;
-  width: 15%;
-  margin-top: 10px;
-
+div hr {
   background-color: var(--orange-color);
-
+  margin-top: 10px;
   border-radius: 5px;
   border: none;
 }
 
-div h1{
+div hr.principaly{
+  height: 3px;
+  width: 15%;
+}
+
+div hr.secundary{
+  height: 1.5px;
+  width: 100%;
+}
+
+div h1, div h2 {
   font-family: 'gentiumPlus-bold';
-  font-size: 40px;
   color: var(--white-color);
-  margin: 2.5%;
+  margin: 0;
+  margin-right: 2%;
+  padding: 0;
+} 
+
+div h1{
+  font-size: 40px;
+}
+
+div h2{
+  font-size: 25px;
 }
