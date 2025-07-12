@@ -1,130 +1,148 @@
 {
-	"academy": [
+	"professional": [
 		{
-			"img":"assets/projects/backgroundImages/recetasCocina.webp",
-			"title": "Recipe book of the world",
-			"links": [
+			"title": "Integration API",
+			"type": "Backend",
+    	"summary": "Development of a Go API that integrates the ArQuants (Tradespark) platform with an external test market.",
+    	"experience": {
+				"organization": "Tradespark",  
+  			"title": "Trading Algorith Developer",   
+  			"period": "2025"   
+			},
+    	"tools": ["GRPC", "RabbitMQ", "GO"]
+		},
+		{
+			"title": "Automated Conversational Agent",
+			"type": "Artificial Intelligence",
+    	"summary": "Development of an artificial intelligence agent that automatically responds to customers on WhatsApp. The system identifies complex queries or special cases and automatically escalates them to the support team.",
+    	"experience": {
+				"organization": "Tradespark",  
+  			"title": "Trading Algorith Developer",   
+  			"period": "2025"   
+			},
+    	"tools": ["LangChain", "N8N", "RAG"]
+		}
+	],
+	"personal": [
+		{
+			"title": "My Portfolio Web",
+			"type": "Frontend",
+    	"summary": "",
+    	"tools": ["Angular", "TypeScript", "Github Actions"],
+    	"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
-					"name":"Github (Backend)"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/my_portfolio_page",
+					"name": "Code"
+				}
+			]
+		},
+		{
+			"title": "Real Time Chat",
+			"type": "FullStack",
+    	"summary": "",
+    	"tools": ["Docker", "Websockets", "Node.js", "MySql", "React"],
+    	"links": [
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/real-time-chat-back",
+					"name": "Backend Code"
 				},
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/juanfraherrero/Recetario_del_mundo",
-					"name":"Github (Frontend)"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/real-time-chat-front",
+					"name": "Frontend Code"
 				}
 			]
 		},
 		{
-			"img":"assets/projects/backgroundImages/botTrading.webp",
-			"title": "Tradingbot",
-			"links": [
+			"title": "Simple Calculator",
+			"type": "Frontend",
+    	"summary": "",
+    	"tools": ["HTML", "CSS", "JavaScript"],
+    	"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/trading_algorithm_bot",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/chatbot.webp",
-			"title": "Chatbot",
-			"links": [
+					"logo": "link",
+					"link": "https://martinvazquez1982.github.io/simple-calculator/",
+					"name": "Page"
+				},
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/Chatbot",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/compilador.webp",
-			"title": "Compiler",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/compilerProject",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/procesador.webp",
-			"title": "Processor",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/pipelined-MIPS-processor",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/recomendador1.png",
-			"title": "Trigonometry Problem Recommender",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/colab.svg",
-					"link":"https://colab.research.google.com/drive/1sfrxiE_yKhG3bVeqYWfvodRr9KxC_OnX?usp=sharing",
-					"name":"Google Colab"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/acne.webp",
-			"title":"Acne detector",
-			"links":[
-				{
-					"logo": "assets/projects/linksimages/github.svg",
-					"link": "https://github.com/MartinVazquez1982/acne_detector",
-					"name": "Github"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/simple-calculator",
+					"name": "Code"
 				}
 			]
 		}
 	],
-	"others": [
+	"academy": [
 		{
-			"img":"assets/projects/backgroundImages/portfolioWeb.webp",
-			"title": "My portfolio Web",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/my_portfolio_page",
-					"name":"Github"
-				}
+			"title": "Recipe Book of the World",
+			"type": "",
+    	"summary": "",
+    	"experience": {
+				"organization": "",  
+  			"title": "",   
+  			"period": ""   
+			},
+    	"tools": [],
+    	"links": [
+				
 			]
 		},
 		{
-			"img":"assets/projects/backgroundImages/realTimeChat.png",
-			"title": "Real Time Chat",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/real-time-chat-front",
-					"name":"Github (Frontend)"
-				},
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/real-time-chat-back",
-					"name":"Github (Backend)"
-				}
+			"title": "Chabot",
+			"type": "",
+    	"summary": "",
+    	"experience": {
+				"organization": "",  
+  			"title": "",   
+  			"period": ""   
+			},
+    	"tools": [],
+    	"links": [
+				
 			]
 		},
 		{
-			"img":"assets/projects/backgroundImages/calculadora.webp",
-			"title": "Simple Calculator",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/simple-calculator",
-					"name":"Github"
-				},
-				{
-					"logo":"assets/projects/linksimages/link.svg",
-					"link":"https://martinvazquez1982.github.io/simple-calculator/",
-					"name":"Page"
-				}
+			"title": "Compiler",
+			"type": "",
+    	"summary": "",
+    	"experience": {
+				"organization": "",  
+  			"title": "",   
+  			"period": ""   
+			},
+    	"tools": [],
+    	"links": [
+				
+			]
+		},
+		{
+			"title": "Trigonometry Problem Recomender",
+			"type": "",
+    	"summary": "",
+    	"experience": {
+				"organization": "",  
+  			"title": "",   
+  			"period": ""   
+			},
+    	"tools": [],
+    	"links": [
+				
+			]
+		},
+		{
+			"title": "Acne Detector",
+			"type": "",
+    	"summary": "",
+    	"experience": {
+				"organization": "",  
+  			"title": "",   
+  			"period": ""   
+			},
+    	"tools": [],
+    	"links": [
+				
 			]
 		}
 	]

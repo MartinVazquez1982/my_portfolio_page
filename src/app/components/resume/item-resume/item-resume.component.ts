@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Resume } from '../../../../interfaces/interfaces';
+import { Resume } from '../../../../types/interfaces';
 
 @Component({
     selector: 'app-item-resume',

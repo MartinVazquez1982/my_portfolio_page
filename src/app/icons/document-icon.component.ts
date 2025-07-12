@@ -6,8 +6,6 @@ import { Component } from '@angular/core';
   template: `
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
-			width="18" 
-			height="18" 
 			viewBox="0 0 24 24" 
 			fill="none" 
 			stroke="currentColor" 
@@ -22,8 +20,8 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     svg {
-      width: 100%;
-      height: 100%;
+      width: 20px;
+      height: 20px;
       display: block;
     }
   `]

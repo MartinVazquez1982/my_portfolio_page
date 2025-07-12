@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, HostListener } from '@angular/core';
-import { Project } from '../../../../interfaces/interfaces';
+import { Project } from '../../../../types/interfaces';
 
 @Component({
 	selector: 'app-projectList',

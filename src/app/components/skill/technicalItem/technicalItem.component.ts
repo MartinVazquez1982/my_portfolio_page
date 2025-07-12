@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { TechnicalSkill } from '../../../../interfaces/interfaces';
+import { TechnicalSkill } from '../../../../types/interfaces';
 
 
 @Component({

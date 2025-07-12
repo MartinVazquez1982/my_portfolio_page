@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Project } from '../../../../interfaces/interfaces';
+import { Project } from '../../../../types/interfaces';
 import { ProjectLinkComponent } from '../projectLink/projectLink.component';
 
 @Component({

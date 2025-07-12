@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { NgComponentOutlet } from '@angular/common'; 
 import { ICON_MAP } from '../../../icons/icon-map';
+import { IconKey } from '../../../../types/enums';
 
 @Component({
     selector: 'app-github-icon',
@@ -12,6 +13,6 @@ import { ICON_MAP } from '../../../icons/icon-map';
 
 export class ProjectLinkComponent {
     @Input() text: string = "Backend";
-    @Input() icon: string = "github";
+    @Input() icon: IconKey = IconKey.GitHub;
     iconMap = ICON_MAP;
 }

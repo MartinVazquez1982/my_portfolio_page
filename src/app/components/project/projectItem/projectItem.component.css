@@ -1,6 +1,6 @@
 .card {
   width: 90%;
-  height: 90%;
+  height: 350px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,11 @@
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   box-shadow: 1px 1px 2.5px black;
   transform: scale(1);
+}
+
+section{
+  width: 100%;
+  margin: 5px 0;
 }
 
 .card:hover {

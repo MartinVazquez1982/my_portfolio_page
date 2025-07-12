@@ -6,7 +6,7 @@ a, a:visited {
   font-family: "gentiumPlus-regular";
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
 }
 
 a:hover {
