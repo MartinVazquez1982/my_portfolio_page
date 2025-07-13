@@ -1,20 +1,26 @@
 <div class="card">
-  <h3>Recipe book of the world</h3>
-  <section>
-    <p>Empresa: TechCorp Solutions</p>
-    <p>Rol: Frontend Developer</p>
-    <p>Período: 2022 - 2023</p>
-  </section>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi placeat nemo accusantium voluptate quas, iure temporibus illum numquam ut quo sapiente distinctio officia. Illo obcaecati natus quod placeat quam earum.</p>
-  <div class="tools">
-    <span class="tool">React</span>
-    <span class="tool">Node.js</span>
-    <span class="tool">Mongo DB</span>
-    <span class="tool">Docker</span>
-    <span class="tool">Mongo DB</span>
-    <span class="tool">Docker</span>
+  <div class="item-header">
+    <p>Personal</p>
+    <p>{{ project.type }}</p>
   </div>
+  <h3>{{ project.title }}</h3>
+  <section *ngIf="project.experience">
+    <p>{{ project.experience.organization }}</p>
+    <p>{{ project.experience.title }}</p>
+    <p>{{ project.experience.period }}</p>
+  </section>
+  <p>{{ project.summary }}</p>
   <div class="tools">
-    <ng-container *ngComponentOutlet="projectLink"></ng-container>
+    <span 
+      class="tool"
+      *ngFor="let tool of project.tools"
+    >
+      {{ tool }}
+    </span>
+  </div>
+  <div class="links" *ngIf="project.links">
+    <div *ngFor="let component of project.links; let i = index">
+      <app-projectlink [link]="component"></app-projectlink>
+    </div>
   </div>
 </div>

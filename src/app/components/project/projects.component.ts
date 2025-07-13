@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import * as data from '../../../data/projects.json';
 import { ProjectInformation } from '../../../types/interfaces';
 
@@ -10,6 +10,8 @@ import { ProjectInformation } from '../../../types/interfaces';
 })
 
 export class ProjectsApp {
+
+	projects: ProjectInformation = data as ProjectInformation;
 
 	constructor(){}
 }

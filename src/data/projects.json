@@ -27,9 +27,9 @@
 		{
 			"title": "My Portfolio Web",
 			"type": "Frontend",
-    	"summary": "",
-    	"tools": ["Angular", "TypeScript", "Github Actions"],
-    	"links": [
+			"summary": "Personal website where I showcase my experience, skills, and developed projects.",
+			"tools": ["Angular", "TypeScript", "Github Actions"],
+			"links": [
 				{
 					"logo": "github",
 					"link": "https://github.com/MartinVazquez1982/my_portfolio_page",
@@ -40,9 +40,9 @@
 		{
 			"title": "Real Time Chat",
 			"type": "FullStack",
-    	"summary": "",
-    	"tools": ["Docker", "Websockets", "Node.js", "MySql", "React"],
-    	"links": [
+			"summary": "Real-time messaging application with user registration and instant message sending.",
+			"tools": ["Docker", "Websockets", "Node.js", "MySql", "React"],
+			"links": [
 				{
 					"logo": "github",
 					"link": "https://github.com/MartinVazquez1982/real-time-chat-back",
@@ -58,9 +58,9 @@
 		{
 			"title": "Simple Calculator",
 			"type": "Frontend",
-    	"summary": "",
-    	"tools": ["HTML", "CSS", "JavaScript"],
-    	"links": [
+    		"summary": "Basic calculator with essential functions for simple mathematical operations.",
+    		"tools": ["HTML", "CSS", "JavaScript"],
+			"links": [
 				{
 					"logo": "link",
 					"link": "https://martinvazquez1982.github.io/simple-calculator/",
@@ -77,72 +77,97 @@
 	"academy": [
 		{
 			"title": "Recipe Book of the World",
-			"type": "",
-    	"summary": "",
+			"type": "FullStack",
+    	"summary": "World recipe book with features to add, edit, or delete traditional dishes from various countries.",
     	"experience": {
-				"organization": "",  
-  			"title": "",   
-  			"period": ""   
+				"organization": "UNICEN",  
+  			"title": "WEB Programming",   
+  			"period": "2023"   
 			},
-    	"tools": [],
+    	"tools": ["Node.js", "MongoDB", "Angular"],
     	"links": [
-				
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
+					"name": "Backend Code"
+				},
+				{
+					"logo": "github",
+					"link": "https://github.com/juanfraherrero/Recetario_del_mundo",
+					"name": "Frontend Code"
+				}
 			]
 		},
 		{
 			"title": "Chabot",
-			"type": "",
-    	"summary": "",
-    	"experience": {
-				"organization": "",  
-  			"title": "",   
-  			"period": ""   
+			"type": "Artificial Intelligence",
+			"summary": "Virtual representation of myself using Rasa, capable of basic conversational interactions.",
+			"experience": {
+				"organization": "UNICEN",  
+  			"title": "Exploratory Programming",   
+  			"period": "2022"    
 			},
-    	"tools": [],
-    	"links": [
-				
+			"tools": ["Python", "Rasa", "ngrok", "Prolog"],
+			"links": [
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/Chatbot",
+					"name": "Code"
+				}
 			]
 		},
 		{
 			"title": "Compiler",
-			"type": "",
-    	"summary": "",
-    	"experience": {
-				"organization": "",  
-  			"title": "",   
-  			"period": ""   
+			"type": "Other / Tools & Experiments",
+			"summary": "Compiler for an academic language, built from scratch with lexical, syntactic, and semantic analysis.",
+			"experience": {
+				"organization": "UNICEN",  
+				"title": "Compiler Design",   
+				"period": "2023"   
 			},
-    	"tools": [],
-    	"links": [
-				
+			"tools": ["C++", "Yacc"],
+			"links": [
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/compilerProject",
+					"name": "Code"
+				}
 			]
 		},
 		{
 			"title": "Trigonometry Problem Recomender",
-			"type": "",
-    	"summary": "",
-    	"experience": {
-				"organization": "",  
-  			"title": "",   
-  			"period": ""   
+			"type": "Artificial Intelligence",
+			"summary": "Recommender system for trigonometry exercises using collaborative and content-based filtering.",
+			"experience": {
+				"organization": "UNICEN",  
+				"title": "Recommender Systems",   
+				"period": "2024"   
 			},
-    	"tools": [],
-    	"links": [
-				
+			"tools": ["Scikit-learn", "Jupyter Notebook", "Pandas"],
+			"links": [
+				{
+					"logo": "colab",
+					"link": "https://colab.research.google.com/drive/1sfrxiE_yKhG3bVeqYWfvodRr9KxC_OnX?usp=sharing",
+					"name": "Notebook"
+				}
 			]
 		},
 		{
 			"title": "Acne Detector",
-			"type": "",
-    	"summary": "",
-    	"experience": {
-				"organization": "",  
-  			"title": "",   
-  			"period": ""   
+			"type": "Other / Tools & Experiments",
+			"summary": "Detects acne in images by analyzing a user-specified area using computer vision techniques.",
+			"experience": {
+				"organization": "UNICEN",  
+				"title": "Image Processing",   
+				"period": "2024"   
 			},
-    	"tools": [],
-    	"links": [
-				
+			"tools": ["OpenCV", "Numpy", "Matplotlib"],
+			"links": [
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/acne_detector",
+					"name": "Code"
+				}
 			]
 		}
 	]

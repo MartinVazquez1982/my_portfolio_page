@@ -1,13 +1,10 @@
 <div>
 	<app-section-title title="Academy" [secundaryTitle]="true"></app-section-title>
 	<div class="projects">
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
-		<app-projectItem class="item"></app-projectItem>
+		<app-projectItem
+			class="item"
+    	*ngFor="let project of projects"
+    	[project]="project"
+		></app-projectItem>
 	</div>
 </div>

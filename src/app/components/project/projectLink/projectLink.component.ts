@@ -1,18 +1,14 @@
 import { Component, Input } from '@angular/core';
-import { NgComponentOutlet } from '@angular/common'; 
 import { ICON_MAP } from '../../../icons/icon-map';
-import { IconKey } from '../../../../types/enums';
+import { Link } from '../../../../types/interfaces';
 
 @Component({
-    selector: 'app-github-icon',
-    standalone: true,
+    selector: 'app-projectlink',
     templateUrl: './projectLink.component.html',
     styleUrls: ['./projectLink.component.css', '../../../../styles.css'],
-    imports: [NgComponentOutlet]
 })
 
-export class ProjectLinkComponent {
-    @Input() text: string = "Backend";
-    @Input() icon: IconKey = IconKey.GitHub;
+export class ProjectLinkApp {
+    @Input() link: Link = {} as Link;
     iconMap = ICON_MAP;
 }

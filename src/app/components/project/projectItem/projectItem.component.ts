@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Project } from '../../../../types/interfaces';
-import { ProjectLinkComponent } from '../projectLink/projectLink.component';
+import { ProjectLinkApp } from '../projectLink/projectLink.component';
 
 @Component({
     selector: 'app-projectItem',
@@ -10,6 +10,5 @@ import { ProjectLinkComponent } from '../projectLink/projectLink.component';
 
 export class ProjectItemApp {
 
-    @Input() item_project: Project = {} as Project;
-    projectLink = ProjectLinkComponent
+    @Input() project: Project = {} as Project;
 }
