@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import * as data from '../../../data/projects.json';
 import { ProjectInformation } from '../../../types/interfaces';
+import { ProjectType } from '../../../types/enums';
 
 
 @Component({
@@ -12,6 +13,7 @@ import { ProjectInformation } from '../../../types/interfaces';
 export class ProjectsApp {
 
 	projects: ProjectInformation = data as ProjectInformation;
+	projectType = ProjectType;
 
 	constructor(){}
 }

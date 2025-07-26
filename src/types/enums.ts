@@ -5,3 +5,9 @@ export enum IconKey {
   Personal = 'personal',
   Academy = 'academy'
 }
+
+export enum ProjectType {
+  Academy = "academy",
+  Personal = "personal",
+  Professional = "professional"
+}

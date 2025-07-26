@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'gentiumPlus-bold';
-  src: url('./assets/fonts/GentiumPlus-Bold.ttf');
+  font-family: 'Bold';
+  src: url('./assets/fonts/NotoSans-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'gentiumPlus-italic';
-  src: url('./assets/fonts/GentiumPlus-Italic.ttf');
+  font-family: 'Italic';
+  src: url('./assets/fonts/NotoSans-Italic.ttf');
 }
 
 @font-face {
-  font-family: 'gentiumPlus-boldItalic';
-  src: url('./assets/fonts/GentiumPlus-BoldItalic.ttf');
+  font-family: 'boldItalic';
+  src: url('./assets/fonts/NotoSans-BoldItalic.ttf');
 }
 
 @font-face {
-  font-family: 'gentiumPlus-regular';
-  src: url('./assets/fonts/GentiumPlus-Regular.ttf');
+  font-family: 'Regular';
+  src: url('./assets/fonts/NotoSans-Regular.ttf');
 }
 
 *{
@@ -72,7 +72,7 @@ body{
 }
 
 .title-secundary{
-  font-family: 'gentiumPlus-bold';
+  font-family: 'bold';
   font-size: 30px;
   margin: 10px 0px;
   color: var(--white-color);

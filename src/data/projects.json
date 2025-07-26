@@ -14,7 +14,7 @@
 		{
 			"title": "Automated Conversational Agent",
 			"type": "Artificial Intelligence",
-    	"summary": "Development of an artificial intelligence agent that automatically responds to customers on WhatsApp. The system identifies complex queries or special cases and automatically escalates them to the support team.",
+    	"summary": "Development of an AI agent to respond on WhatsApp and escalate complex queries to the support team.",
     	"experience": {
 				"organization": "Tradespark",  
   			"title": "Trading Algorith Developer",   

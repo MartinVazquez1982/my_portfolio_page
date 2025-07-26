@@ -41,7 +41,7 @@
 }
 
 .level p{
-	font-family: 'gentiumPlus-bold';
+	font-family: 'bold';
 	color: var(--white-color);
 	font-size: 20px;
 }
@@ -66,7 +66,7 @@
 }
 
 .lenguage p{
-  font-family: 'gentiumPlus-bold';
+  font-family: 'bold';
   color: var(--white-color);
   font-size: 30px;
 }

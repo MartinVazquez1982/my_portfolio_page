@@ -23,6 +23,7 @@ import { Component } from '@angular/core';
       width: 20px;
       height: 20px;
       display: block;
+      color: rgb(74 222 128);
     }
   `]
 })

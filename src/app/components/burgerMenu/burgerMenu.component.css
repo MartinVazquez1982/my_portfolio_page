@@ -12,7 +12,7 @@ button{
     border: none;
     background-color: transparent;
     color: var(--white-color);
-    font-family: 'gentiumPlus-bold';
+    font-family: 'bold';
     font-size: 1.5rem;
 
     margin: 10px 0;

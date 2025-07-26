@@ -1,6 +1,6 @@
 .card {
   width: 90%;
-  height: 350px;
+  height: 300px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -19,6 +19,11 @@ section{
   margin: 5px 0;
 }
 
+.card section p {
+  font-family: 'Italic';
+  font-size: 13px;
+}
+
 .card:hover {
   box-shadow: 2px 2px 5px black;
   transform: scale(1.05);
@@ -26,12 +31,13 @@ section{
 
 .card h3{
   color: var(--white-color);
-  font-family: 'gentiumPlus-bold';
+  font-family: 'Regular';
 }
 
 .card p {
   text-align: justify;
   color: #D1D5DB;
+  font-family: 'Regular';
 }
 
 .tools, .links {
@@ -57,7 +63,7 @@ section{
   background-color: var(--background-container);
   border-radius: 999px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-  font-family: 'gentiumPlus-regular';
+  font-family: 'Regular';
 }
 
 .item-header{
@@ -66,4 +72,21 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.item-header .project-type{
+  color: var(--orange-color);
+  font-size: 13px;
+}
+
+.item-header .project-class{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item-header .project-class p{
+  color: var(--white-color);
+  font-size: 13px;
+  margin-left: 8px;
 }

@@ -49,14 +49,14 @@
     text-align: center;
     font-size: 25px;
     color: var(--white-color);
-    font-family: 'gentiumPlus-bold';
+    font-family: 'bold';
     margin: 5px 0;
 }
 
 .job{
     color: var(--white-color);
     margin: 5px 0;
-    font-family: 'gentiumPlus-bold';
+    font-family: 'bold';
 }
 
 /* Networks List Styles */
@@ -142,7 +142,7 @@
 }
 
 .per-info-text{
-    font-family: 'gentiumPlus-bold';
+    font-family: 'bold';
     font-size:1rem;
 }
 
@@ -152,7 +152,7 @@
 }
 
 .data-label{
-    font-family: 'gentiumPlus-italic';
+    font-family: 'Italic';
 }
 
 /* Download CV button*/
@@ -168,7 +168,7 @@
     border: none;
 
     color: var(--white-color);
-    font-family: 'gentiumPlus-boldItalic';
+    font-family: 'boldItalic';
     
     cursor: pointer;
     text-decoration: none;

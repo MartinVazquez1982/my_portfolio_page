@@ -22,6 +22,7 @@ import { Component } from '@angular/core';
       width: 20px;
       height: 20px;
       display: block;
+      color: var(--orange-color);
     }
   `]
 })

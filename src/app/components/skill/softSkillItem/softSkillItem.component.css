@@ -24,14 +24,14 @@
 }
 
 .number{
-	font-family: 'gentiumPlus-italic';
+	font-family: 'Italic';
 	color: var(--white-color);
 	font-size: 1.3rem;
 }
 
 .skill{
 	margin-left: 10px;
-	font-family: 'gentiumPlus-italic';
+	font-family: 'Italic';
 	color: var(--white-color);
 	font-size: 1.3rem;
 }

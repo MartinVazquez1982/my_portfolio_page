@@ -1,13 +1,16 @@
 <div class="card">
   <div class="item-header">
-    <p>Personal</p>
-    <p>{{ project.type }}</p>
+    <div class="project-class">
+      <ng-container *ngComponentOutlet="projectIcon"></ng-container>
+      <p>{{projectIconTitle}}</p>
+    </div>
+    <p class="project-type">{{ project.type }}</p>
   </div>
   <h3>{{ project.title }}</h3>
   <section *ngIf="project.experience">
-    <p>{{ project.experience.organization }}</p>
-    <p>{{ project.experience.title }}</p>
-    <p>{{ project.experience.period }}</p>
+    <div *ngFor="let item of projectMetadata">
+      <p><strong>{{ item.label }}:</strong> {{ item.value }}</p>
+    </div>
   </section>
   <p>{{ project.summary }}</p>
   <div class="tools">

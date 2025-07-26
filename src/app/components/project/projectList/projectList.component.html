@@ -1,10 +1,14 @@
 <div>
-	<app-section-title title="Academy" [secundaryTitle]="true"></app-section-title>
+	<div class="title">
+		<ng-container *ngComponentOutlet="projectIcon"></ng-container>
+		<h2>{{ title }}</h2>
+	</div>
 	<div class="projects">
 		<app-projectItem
 			class="item"
-    	*ngFor="let project of projects"
-    	[project]="project"
+    		*ngFor="let project of projects"
+    		[project]="project"
+			[projectType]="projectType"
 		></app-projectItem>
 	</div>
 </div>
