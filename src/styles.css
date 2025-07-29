@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'gentiumPlus-bold';
-  src: url('./assets/fonts/GentiumPlus-Bold.ttf');
+  font-family: 'Bold';
+  src: url('./assets/fonts/NotoSans-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'gentiumPlus-italic';
-  src: url('./assets/fonts/GentiumPlus-Italic.ttf');
+  font-family: 'Italic';
+  src: url('./assets/fonts/NotoSans-Italic.ttf');
 }
 
 @font-face {
-  font-family: 'gentiumPlus-boldItalic';
-  src: url('./assets/fonts/GentiumPlus-BoldItalic.ttf');
+  font-family: 'boldItalic';
+  src: url('./assets/fonts/NotoSans-BoldItalic.ttf');
 }
 
 @font-face {
-  font-family: 'gentiumPlus-regular';
-  src: url('./assets/fonts/GentiumPlus-Regular.ttf');
+  font-family: 'Regular';
+  src: url('./assets/fonts/NotoSans-Regular.ttf');
 }
 
 *{
@@ -64,43 +64,15 @@ body{
   }
   
 .conteiner{
-    width: 100%;
-
     background-color: var(--background-container);
-
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 0;
-
-    padding-bottom: 30px;
-}
-
-.conteiner-title{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-hr{
-  height: 3px;
-  width: 15%;
-  margin-top: 10px;
-
-  background-color: var(--orange-color);
-
-  border-radius: 5px;
-  border: none;
-}
-
-.title{
-  font-family: 'gentiumPlus-bold';
-  font-size: 40px;
-  margin: 10px 30px;
-  color: var(--white-color);
+    padding: 2%;
 }
 
 .title-secundary{
-  font-family: 'gentiumPlus-bold';
+  font-family: 'bold';
   font-size: 30px;
   margin: 10px 0px;
   color: var(--white-color);

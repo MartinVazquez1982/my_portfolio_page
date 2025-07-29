@@ -1,28 +1,29 @@
 <div class="conteiner">
-	<div class="conteiner-title">
-		<h1 class="title">Projects</h1>
-		<hr>
-	</div>
-	<div class="projects-buttons-list">
-		<button
-			id="0"
-			[ngClass]="{'project-button-press': buttons[0], 'project-button': !buttons[0]}"
-			(click)="onClickButton($event)"
-		>Academics</button>
-		<button
-			id="1"
-			[ngClass]="{'project-button-press': buttons[1], 'project-button': !buttons[1]}"
-			(click)="onClickButton($event)"
-		>Others</button>
-	</div>
-	<div class="projects-container">
-		<app-projectList
-			[active]="buttons[0]"
-			[projects]="items.academy"
-		></app-projectList>
-		<app-projectList
-			[active]="buttons[1]"
-			[projects]="items.others"
-		></app-projectList>
-	</div>
+	<app-section-title title="Projects"></app-section-title>
+	<section id="thesis-section">
+		<div id="thesis-conteiner">
+			<div id="title">
+				<ng-container *ngComponentOutlet="academyIcon; inputs: { size: 30 }"></ng-container>
+				<h3>Undergraduate Engineering Thesis</h3>
+			</div>
+			<h4>Computer Vision in Medicine: Development of a Baseline Segmentation Model for Brain Aneurysm Treatment Devices from 3D Medical Images</h4>
+			<p>We developed a baseline segmentation model using U-Net to identify brain aneurysm treatment devices in 3D medical images. The project involved deep learning implementation with PyTorch, data preprocessing, training optimization, and integration with a web service. Our goal was to automate and improve accuracy in a traditionally manual process.</p>
+			<div id="thesis-information">
+				<a href="">
+					<ng-container *ngComponentOutlet="documentIcon"></ng-container>
+					<span>View Spanish Report</span>
+				</a>
+				<div>
+					<span class="tool">Research</span>
+					<span class="tool">Deep learning</span>
+					<span class="tool">U-Net</span>
+					<span class="tool">3D Modeling</span>
+					<span class="tool">Image processing</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<app-projectList [projects]="projects.professional" [projectType]="projectType.Professional"></app-projectList>
+	<app-projectList [projects]="projects.personal" [projectType]="projectType.Personal"></app-projectList>
+	<app-projectList [projects]="projects.academy" [projectType]="projectType.Academy"></app-projectList>
 </div>

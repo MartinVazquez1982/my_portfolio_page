@@ -1,5 +1,9 @@
-import { Component, Input, OnInit, HostListener } from '@angular/core';
-import { Project } from '../../../../interfaces/interfaces';
+import { Component, Input, OnInit, Type } from '@angular/core';
+import { Project } from '../../../../types/interfaces';
+import { ProjectType } from '../../../../types/enums';
+import { AcademyIconComponent } from '../../../icons/academy-icon.component';
+import { PersonalIconComponent } from '../../../icons/personal-icon.component';
+import { ProfessionalIconComponent } from '../../../icons/professional-icon.component';
 
 @Component({
 	selector: 'app-projectList',
@@ -7,38 +11,37 @@ import { Project } from '../../../../interfaces/interfaces';
 	styleUrls: ['./projectList.component.css', '../../../../styles.css']
 })
 
-export class ProjectListApp implements OnInit {
+export class ProjectListApp implements OnInit{
 
-	@Input() projects: Project[][] = [];
-	@Input() active: boolean = false;
-	currentNumber: number = 0;
-	screenWidth: number = 0;
+	@Input() projectType: ProjectType = ProjectType.Academy;
+	@Input() projects: Project[] = [];
+	title: string = "";
+	filterOptions: string[] = [];
+	
 
-	static readonly MIN_WIDTH: number = 1200;
 
-	ngOnInit(): void {
-
+    ngOnInit() {
+		this.title = this.getTitle()
 	}
 
-	constructor(){
-		this.getScreenSize();
+	getTitle(): string  {
+		if (this.projectType == ProjectType.Academy) {
+			return "Academic Projects"
+		} else if (this.projectType == ProjectType.Professional) {
+			return "Professional Experience"
+		}
+		return "Personal Projects"
 	}
 
-	@HostListener('window:resize', ['$event'])
-	getScreenSize(event?: any) {
-		this.screenWidth = window.innerWidth
-		
+	get projectIcon(): Type<unknown> {
+		switch (this.projectType) {
+			case ProjectType.Academy:
+				return AcademyIconComponent;
+			case ProjectType.Personal:
+				return PersonalIconComponent;
+			case ProjectType.Professional:
+				return ProfessionalIconComponent;
+		}
 	}
-
-	current(i: number) {
-		return i == this.currentNumber || this.screenWidth < ProjectListApp.MIN_WIDTH
-	}
-
-	press(i: number) {
-		this.currentNumber = i
-	}
-
-	viewButtons(){
-		return this.screenWidth > ProjectListApp.MIN_WIDTH
-	}
+	
 }

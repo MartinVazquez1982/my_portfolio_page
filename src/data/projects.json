@@ -1,129 +1,172 @@
 {
-	"academy": [
+	"professional": [
 		{
-			"img":"assets/projects/backgroundImages/recetasCocina.webp",
-			"title": "Recipe book of the world",
+			"title": "Integration API",
+			"type": "Backend",
+    	"summary": "Development of a Go API that integrates the ArQuants (Tradespark) platform with an external test market.",
+    	"experience": {
+				"organization": "Tradespark",  
+  			"title": "Trading Algorith Developer",   
+  			"period": "2025"   
+			},
+    	"tools": ["GRPC", "RabbitMQ", "GO"]
+		},
+		{
+			"title": "Automated Conversational Agent",
+			"type": "Artificial Intelligence",
+    	"summary": "Development of an AI agent to respond on WhatsApp and escalate complex queries to the support team.",
+    	"experience": {
+				"organization": "Tradespark",  
+  			"title": "Trading Algorith Developer",   
+  			"period": "2025"   
+			},
+    	"tools": ["LangChain", "N8N", "RAG"]
+		}
+	],
+	"personal": [
+		{
+			"title": "My Portfolio Web",
+			"type": "Frontend",
+			"summary": "Personal website where I showcase my experience, skills, and developed projects.",
+			"tools": ["Angular", "TypeScript", "Github Actions"],
 			"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
-					"name":"Github (Backend)"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/my_portfolio_page",
+					"name": "Code"
+				}
+			]
+		},
+		{
+			"title": "Real Time Chat",
+			"type": "FullStack",
+			"summary": "Real-time messaging application with user registration and instant message sending.",
+			"tools": ["Docker", "Websockets", "Node.js", "MySql", "React"],
+			"links": [
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/real-time-chat-back",
+					"name": "Backend Code"
 				},
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/juanfraherrero/Recetario_del_mundo",
-					"name":"Github (Frontend)"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/real-time-chat-front",
+					"name": "Frontend Code"
 				}
 			]
 		},
 		{
-			"img":"assets/projects/backgroundImages/botTrading.webp",
-			"title": "Tradingbot",
+			"title": "Simple Calculator",
+			"type": "Frontend",
+    		"summary": "Basic calculator with essential functions for simple mathematical operations.",
+    		"tools": ["HTML", "CSS", "JavaScript"],
 			"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/trading_algorithm_bot",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/chatbot.webp",
-			"title": "Chatbot",
-			"links": [
+					"logo": "link",
+					"link": "https://martinvazquez1982.github.io/simple-calculator/",
+					"name": "Page"
+				},
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/Chatbot",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/compilador.webp",
-			"title": "Compiler",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/compilerProject",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/procesador.webp",
-			"title": "Processor",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/pipelined-MIPS-processor",
-					"name":"Github"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/recomendador1.png",
-			"title": "Trigonometry Problem Recommender",
-			"links": [
-				{
-					"logo":"assets/projects/linksimages/colab.svg",
-					"link":"https://colab.research.google.com/drive/1sfrxiE_yKhG3bVeqYWfvodRr9KxC_OnX?usp=sharing",
-					"name":"Google Colab"
-				}
-			]
-		},
-		{
-			"img":"assets/projects/backgroundImages/acne.webp",
-			"title":"Acne detector",
-			"links":[
-				{
-					"logo": "assets/projects/linksimages/github.svg",
-					"link": "https://github.com/MartinVazquez1982/acne_detector",
-					"name": "Github"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/simple-calculator",
+					"name": "Code"
 				}
 			]
 		}
 	],
-	"others": [
+	"academy": [
 		{
-			"img":"assets/projects/backgroundImages/portfolioWeb.webp",
-			"title": "My portfolio Web",
-			"links": [
+			"title": "Recipe Book of the World",
+			"type": "FullStack",
+    	"summary": "World recipe book with features to add, edit, or delete traditional dishes from various countries.",
+    	"experience": {
+				"organization": "UNICEN",  
+  			"title": "WEB Programming",   
+  			"period": "2023"   
+			},
+    	"tools": ["Node.js", "MongoDB", "Angular"],
+    	"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/my_portfolio_page",
-					"name":"Github"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
+					"name": "Backend Code"
+				},
+				{
+					"logo": "github",
+					"link": "https://github.com/juanfraherrero/Recetario_del_mundo",
+					"name": "Frontend Code"
 				}
 			]
 		},
 		{
-			"img":"assets/projects/backgroundImages/realTimeChat.png",
-			"title": "Real Time Chat",
+			"title": "Chabot",
+			"type": "Artificial Intelligence",
+			"summary": "Virtual representation of myself using Rasa, capable of basic conversational interactions.",
+			"experience": {
+				"organization": "UNICEN",  
+  			"title": "Exploratory Programming",   
+  			"period": "2022"    
+			},
+			"tools": ["Python", "Rasa", "ngrok", "Prolog"],
 			"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/real-time-chat-front",
-					"name":"Github (Frontend)"
-				},
-				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/real-time-chat-back",
-					"name":"Github (Backend)"
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/Chatbot",
+					"name": "Code"
 				}
 			]
 		},
 		{
-			"img":"assets/projects/backgroundImages/calculadora.webp",
-			"title": "Simple Calculator",
+			"title": "Compiler",
+			"type": "Other / Tools & Experiments",
+			"summary": "Compiler for an academic language, built from scratch with lexical, syntactic, and semantic analysis.",
+			"experience": {
+				"organization": "UNICEN",  
+				"title": "Compiler Design",   
+				"period": "2023"   
+			},
+			"tools": ["C++", "Yacc"],
 			"links": [
 				{
-					"logo":"assets/projects/linksimages/github.svg",
-					"link":"https://github.com/MartinVazquez1982/simple-calculator",
-					"name":"Github"
-				},
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/compilerProject",
+					"name": "Code"
+				}
+			]
+		},
+		{
+			"title": "Trigonometry Problem Recomender",
+			"type": "Artificial Intelligence",
+			"summary": "Recommender system for trigonometry exercises using collaborative and content-based filtering.",
+			"experience": {
+				"organization": "UNICEN",  
+				"title": "Recommender Systems",   
+				"period": "2024"   
+			},
+			"tools": ["Scikit-learn", "Jupyter Notebook", "Pandas"],
+			"links": [
 				{
-					"logo":"assets/projects/linksimages/link.svg",
-					"link":"https://martinvazquez1982.github.io/simple-calculator/",
-					"name":"Page"
+					"logo": "colab",
+					"link": "https://colab.research.google.com/drive/1sfrxiE_yKhG3bVeqYWfvodRr9KxC_OnX?usp=sharing",
+					"name": "Notebook"
+				}
+			]
+		},
+		{
+			"title": "Acne Detector",
+			"type": "Other / Tools & Experiments",
+			"summary": "Detects acne in images by analyzing a user-specified area using computer vision techniques.",
+			"experience": {
+				"organization": "UNICEN",  
+				"title": "Image Processing",   
+				"period": "2024"   
+			},
+			"tools": ["OpenCV", "Numpy", "Matplotlib"],
+			"links": [
+				{
+					"logo": "github",
+					"link": "https://github.com/MartinVazquez1982/acne_detector",
+					"name": "Code"
 				}
 			]
 		}

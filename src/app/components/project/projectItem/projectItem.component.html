@@ -1,15 +1,35 @@
 <div class="card">
-  <img class="img-principal" src="{{ item_project.img }}" alt="">
-  <div class="card__content">
-    <p class="card__title">{{ item_project.title }}</p>
-    <div class="link-list">
-      <a 
-        *ngFor="let link of item_project.links"
-        href="{{ link.link }}" 
-        target="_blank"
-        title="{{ link.name }}">
-        <img src="{{ link.logo }}" alt="{{ link.name }}">
-      </a>
+  <div class="item-header">
+    <div class="project-class"
+      [ngClass]="{
+        'title-icon-green': projectType === 'academy',
+        'title-icon-orange': projectType === 'personal',
+        'title-icon-blue': projectType === 'professional'
+      }"
+    >
+      <ng-container *ngComponentOutlet="projectIcon"></ng-container>
+      <p>{{projectIconTitle}}</p>
+    </div>
+    <p class="project-type">{{ project.type }}</p>
+  </div>
+  <h3>{{ project.title }}</h3>
+  <section *ngIf="project.experience">
+    <div *ngFor="let item of projectMetadata">
+      <p><strong>{{ item.label }}:</strong> {{ item.value }}</p>
+    </div>
+  </section>
+  <p>{{ project.summary }}</p>
+  <div class="tools">
+    <span 
+      class="tool"
+      *ngFor="let tool of project.tools"
+    >
+      {{ tool }}
+    </span>
+  </div>
+  <div class="links" *ngIf="project.links">
+    <div *ngFor="let component of project.links; let i = index">
+      <app-projectlink [link]="component"></app-projectlink>
     </div>
   </div>
 </div>

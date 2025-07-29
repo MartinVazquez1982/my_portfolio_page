@@ -1,0 +1,5 @@
+<div>
+	<h1 *ngIf="!secundaryTitle">{{ title }}</h1>
+	<h2 *ngIf="secundaryTitle">{{ title }}</h2>
+	<hr [ngClass]="{ 'principaly': !secundaryTitle, 'secundary': secundaryTitle}">
+</div>

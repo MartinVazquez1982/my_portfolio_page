@@ -1,23 +1,18 @@
-<div *ngIf="active">
-		<div 
-			
-			*ngFor="let list of projects; let i = index"
-		>
-		<ng-container *ngIf="this.current(i)">
-			<div class="project-list">
-				<app-projectItem
-					class="project-item"
-					*ngFor="let item of list"
-					[item_project]=item
-				></app-projectItem>
-			</div>
-		</ng-container>
-		</div>
-	<div id="buttons" *ngIf="this.viewButtons()">
-		<button 
-			*ngFor="let index of this.projects; let i = index" 
-			(click)="this.press(i)" 
-			[ngClass]="{'current': this.current(i), 'no-current': !this.current(i)}"
-		></button>
+<div>
+	<div class="title" [ngClass]="{
+		'title-icon-green': projectType === 'academy',
+  		'title-icon-orange': projectType === 'personal',
+  		'title-icon-blue': projectType === 'professional'
+	}">
+		<ng-container *ngComponentOutlet="projectIcon; inputs: { size: 25 }"></ng-container>
+		<h2>{{ title }}</h2>
+	</div>
+	<div class="projects">
+		<app-projectItem
+			class="item"
+    		*ngFor="let project of projects"
+    		[project]="project"
+			[projectType]="projectType"
+		></app-projectItem>
 	</div>
 </div>

@@ -48,7 +48,7 @@
 }
 
 .date, .institure{
-    font-family: 'gentiumPlus-italic';
+    font-family: 'Italic';
     margin-left: 15px;
 }
 
@@ -61,13 +61,13 @@
 }
 
 .job{
-    font-family: 'gentiumPlus-bold';
+    font-family: 'bold';
     margin-left: 15px;
     font-size: 20px;
 }
 
 .description{
-  font-family: 'gentiumPlus-bold';
+  font-family: 'bold';
   margin: 10px;
   color: var(--white-color);
   font-size: 13px;

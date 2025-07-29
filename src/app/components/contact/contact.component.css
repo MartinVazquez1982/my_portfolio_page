@@ -8,7 +8,7 @@
 
 .text{
     font-size: 20px;
-    font-family: 'gentiumPlus-italic';
+    font-family: 'Italic';
     margin: 10px 35px;
     color: var(--white-color);
 }
@@ -31,7 +31,7 @@
     border:none;
     border-bottom: 1px solid var(--orange-color);
     font-size: 16px;
-    font-family: 'gentiumPlus-regular';
+    font-family: 'Regular';
     border-radius: 10px;
     width: 80%;
     height: 20%;
@@ -55,7 +55,7 @@
 
 .message::placeholder, .imp-message::placeholder{
     text-align: center;
-    font-family: 'gentiumPlus-italic';
+    font-family: 'Italic';
 }
 
 .message{
@@ -83,7 +83,7 @@ button {
     animation: appear 1.5s linear;
     border-radius: 20px;
     font-size: 16px;
-    font-family: 'gentiumPlus-italic';
+    font-family: 'Italic';
     cursor: pointer;
     
     margin: 10px;

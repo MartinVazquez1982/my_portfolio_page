@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import * as data from '../../../data/skills.json';
-import { SkillsData } from '../../../interfaces/interfaces';
+import { SkillsData } from '../../../types/interfaces';
 
 @Component({
     selector: 'app-skills',

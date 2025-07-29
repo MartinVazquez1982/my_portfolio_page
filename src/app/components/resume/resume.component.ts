@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, ViewChild, ElementRef, HostListener, Renderer2 } from '@angular/core';
 import * as data from '../../../data/resume.json';
-import { ResumeData } from '../../../interfaces/interfaces';
+import { ResumeData } from '../../../types/interfaces';
 import { repeat } from 'rxjs';
 
 @Component({

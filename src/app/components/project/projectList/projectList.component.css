@@ -1,70 +1,51 @@
-.project-list{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	margin: 20px;
-	animation: zoomIn 1s ease-in-out; 
-	justify-items: center;
-	align-items: center;
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: 350px;
 }
 
-#buttons{
-	display: flex;
+.item {
+  display: flex;
   align-items: center;
   justify-content: center;
-	gap: 10px;
-	height: 30px;
-
-	button{
-		width: 15px;
-		height: 15px;
-		border-radius: 50%;
-		border: 2px solid var(--orange-color);
-		cursor: pointer;
-	}
-
-	button.current{
-		background-color: var(--orange-color);
-	}
-
-	button.no-current{
-		background-color: transparent;
-	}
 }
 
-@keyframes zoomIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
 }
 
-.project-item{
-	margin: 10px 0;
+.title-icon-orange{
+  color: var(--orange-color);
 }
 
-@media  only screen and (max-width: 1500px) {
-	.project-list{
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(3, 1fr);
-		margin: 0px 20px;
-	}
+.title-icon-blue{
+  color: rgb(96 165 250);
 }
 
-@media  only screen and (max-width: 1200px) {
-	.project-list{
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: auto;
-	}
+.title-icon-green{
+  color: rgb(74 222 128);
 }
 
-@media  only screen and (max-width: 680px) {
-	.project-list{
-		grid-template-columns: 1fr;
-		grid-template-rows: auto
-	}
+.title h2 {
+  font-size: 25px;
+  margin-left: 15px;
+  font-family: 'Bold';
+  color: var(--white-color);
+}
+
+
+@media screen and (max-width: 1500px) and (min-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

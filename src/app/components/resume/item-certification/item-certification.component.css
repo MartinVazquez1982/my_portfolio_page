@@ -20,7 +20,7 @@
 .conteiner-certification p{
     text-align: center;
     color: var(--white-color);
-    font-family: 'gentiumPlus-BoldItalic';
+    font-family: 'boldItalic';
     line-height: 1;
     margin-top: 2px;
 }
