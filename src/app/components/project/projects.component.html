@@ -2,11 +2,25 @@
 	<app-section-title title="Projects"></app-section-title>
 	<section id="thesis-section">
 		<div id="thesis-conteiner">
-			<div>
-				<h3>Thesis</h3>
+			<div id="title">
+				<ng-container *ngComponentOutlet="academyIcon; inputs: { size: 30 }"></ng-container>
+				<h3>Undergraduate Engineering Thesis</h3>
 			</div>
-			<h4>Titulo</h4>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum autem ullam molestias quasi ea vitae possimus corporis. Quis, tenetur laudantium deserunt reprehenderit, necessitatibus accusamus sequi ab provident iste repellendus error!</p>
+			<h4>Computer Vision in Medicine: Development of a Baseline Segmentation Model for Brain Aneurysm Treatment Devices from 3D Medical Images</h4>
+			<p>We developed a baseline segmentation model using U-Net to identify brain aneurysm treatment devices in 3D medical images. The project involved deep learning implementation with PyTorch, data preprocessing, training optimization, and integration with a web service. Our goal was to automate and improve accuracy in a traditionally manual process.</p>
+			<div id="thesis-information">
+				<a href="">
+					<ng-container *ngComponentOutlet="documentIcon"></ng-container>
+					<span>View Spanish Report</span>
+				</a>
+				<div>
+					<span class="tool">Research</span>
+					<span class="tool">Deep learning</span>
+					<span class="tool">U-Net</span>
+					<span class="tool">3D Modeling</span>
+					<span class="tool">Image processing</span>
+				</div>
+			</div>
 		</div>
 	</section>
 	<app-projectList [projects]="projects.professional" [projectType]="projectType.Professional"></app-projectList>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-professional-icon',
@@ -11,7 +11,9 @@ import { Component } from '@angular/core';
       stroke="currentColor" 
       stroke-width="2" 
       stroke-linecap="round"
-      stroke-linejoin="round" 
+      stroke-linejoin="round"
+      [style.width.px]="size"
+      [style.height.px]="size"
     >
       <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
       <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
@@ -22,12 +24,11 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     svg {
-      width: 20px;
-      height: 20px;
       display: block;
-      color: rgb(96 165 250);
     }
   `]
 })
 
-export class ProfessionalIconComponent {}
+export class ProfessionalIconComponent {
+  @Input() size: number = 16;
+}

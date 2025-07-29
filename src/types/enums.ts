@@ -3,7 +3,8 @@ export enum IconKey {
   Document = 'document',
   Link = 'link',
   Personal = 'personal',
-  Academy = 'academy'
+  Academy = 'academy',
+  Colab = 'colab'
 }
 
 export enum ProjectType {

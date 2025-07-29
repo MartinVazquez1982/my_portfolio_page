@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-personal-icon',
@@ -11,7 +11,9 @@ import { Component } from '@angular/core';
 			stroke="currentColor" 
 			stroke-width="2" 
 			stroke-linecap="round" 
-			stroke-linejoin="round" 
+			stroke-linejoin="round"
+      [style.width.px]="size"
+      [style.height.px]="size"
 		>
 			<path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
 			<circle cx="12" cy="7" r="4"></circle>
@@ -19,12 +21,11 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     svg {
-      width: 20px;
-      height: 20px;
       display: block;
-      color: var(--orange-color);
     }
   `]
 })
 
-export class PersonalIconComponent {}
+export class PersonalIconComponent {
+  @Input() size: number = 16;
+}

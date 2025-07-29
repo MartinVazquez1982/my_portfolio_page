@@ -1,6 +1,12 @@
 <div class="card">
   <div class="item-header">
-    <div class="project-class">
+    <div class="project-class"
+      [ngClass]="{
+        'title-icon-green': projectType === 'academy',
+        'title-icon-orange': projectType === 'personal',
+        'title-icon-blue': projectType === 'professional'
+      }"
+    >
       <ng-container *ngComponentOutlet="projectIcon"></ng-container>
       <p>{{projectIconTitle}}</p>
     </div>

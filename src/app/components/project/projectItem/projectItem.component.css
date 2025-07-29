@@ -85,6 +85,18 @@ section{
   align-items: center;
 }
 
+.title-icon-orange{
+  color: var(--orange-color);
+}
+
+.title-icon-blue{
+  color: rgb(96 165 250);
+}
+
+.title-icon-green{
+  color: rgb(74 222 128);
+}
+
 .item-header .project-class p{
   color: var(--white-color);
   font-size: 13px;
