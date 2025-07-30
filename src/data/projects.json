@@ -46,12 +46,12 @@
 				{
 					"logo": "github",
 					"link": "https://github.com/MartinVazquez1982/real-time-chat-back",
-					"name": "Backend Code"
+					"name": "Backend"
 				},
 				{
 					"logo": "github",
 					"link": "https://github.com/MartinVazquez1982/real-time-chat-front",
-					"name": "Frontend Code"
+					"name": "Frontend"
 				}
 			]
 		},
@@ -89,12 +89,12 @@
 				{
 					"logo": "github",
 					"link": "https://github.com/MartinVazquez1982/WebDevelopmentWorkshop",
-					"name": "Backend Code"
+					"name": "Backend"
 				},
 				{
 					"logo": "github",
 					"link": "https://github.com/juanfraherrero/Recetario_del_mundo",
-					"name": "Frontend Code"
+					"name": "Frontend"
 				}
 			]
 		},
