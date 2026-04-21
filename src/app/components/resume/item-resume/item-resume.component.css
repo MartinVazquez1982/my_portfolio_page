@@ -1,75 +1,50 @@
 .card {
-  width: 300px;
-  height: 120px;
-  perspective: 1000px;
-}
-  
-.card-inner {
   width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.999s;
-}
-  
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-  
-.card-front,
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-  
-.card-front {
-  color: #f2f2f2;
-  background-color: var(--background-secundary);
-  border-radius: 10px;
-  transform: rotateY(0deg);
-
+  background-color: var(--background-container);
+  border-left: 4px solid var(--orange-color);
+  border-radius: 0 8px 8px 0;
+  padding: 14px 20px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: default;
 }
-  
-.card-back {
-  background-color: var(--orange-color);
-  border-radius: 10px;
-  transform: rotateY(180deg);
-  text-align: justify;
 
+.card:hover {
+  background-color: var(--background-secundary);
+  transform: translateX(6px);
+}
+
+.card-meta {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
 }
 
-.date, .institure{
-    font-family: 'Italic';
-    margin-left: 15px;
-}
-
-.date{
-  margin-top: 5px;
-}
-
-.institure{
-  margin-bottom: 5px;
-}
-
-.job{
-    font-family: 'bold';
-    margin-left: 15px;
-    font-size: 20px;
-}
-
-.description{
-  font-family: 'bold';
-  margin: 10px;
-  color: var(--white-color);
+.institure {
+  font-family: 'Bold';
   font-size: 13px;
-  line-height: 1.2;
+  color: var(--orange-color);
+}
+
+.date {
+  font-family: 'Italic';
+  font-size: 12px;
+  color: #999999;
+}
+
+.job {
+  font-family: 'Bold';
+  font-size: 18px;
+  color: var(--white-color);
+}
+
+.description {
+  font-family: 'Regular';
+  font-size: 13px;
+  color: #D1D5DB;
+  line-height: 1.5;
+  text-align: justify;
 }
