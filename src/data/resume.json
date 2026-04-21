@@ -1,30 +1,79 @@
 {
 	"education":[
 		{
+			"date":"March 2025 - December 2025",
+			"title":"University Diploma in Artificial Intelligence",
+			"institure":"UNICEN",
+			"description":[
+				"Introduction to Artificial Intelligence – Core concepts of AI, problem classification, and evaluation techniques for different AI approaches.",
+				"Machine Learning – Classical machine learning techniques for regression, classification, anomaly detection, and clustering tasks.",
+				"Natural Language Processing – Tools and methods for analyzing natural language using machine learning approaches.",
+				"Neural Networks – Foundational skills in designing and implementing neural network-based models, including deep learning methodologies.",
+				"Computer Vision with Artificial Intelligence – Image and video analysis using machine learning techniques for visual data interpretation.",
+				"Emerging Technologies for Machine Learning and AI – Advanced data processing and feature engineering techniques, with focus on developing applications powered by Large Language Models (LLMs)."
+			]
+		},
+		{
 			"date":"March 2020 - October 2024",
 			"title":"System engineering",
 			"institure":"UNICEN",
-			"description":"The Systems Engineer: Versatile professional skilled in math, comp sci, architecture, software engineering, management, and signal processing. Applies expertise effectively, advances the field through innovation, research, and development."
+			"description":[
+				"Solid foundation in basic engineering sciences, computer science, computer architecture, software engineering, and organizational management, combined with practical vision to solve problems effectively and efficiently in any work context.",
+				"Adequate scientific, technical, and professional training that prepares to learn, practice, develop, and undertake new technologies.",
+				"Identifies, designs, manages, develops, executes, and controls systems engineering projects, considering political, economic, social, environmental, and cultural aspects from a global perspective, addressing societal needs.",
+				"Ethical and responsible professional conduct with ability to evaluate and act regarding the social impact of professional activities in global and local contexts.",
+				"Understanding of Engineering principles and skills to apply them to software development projects.",
+				"Aptitude for generating technological developments and innovations with an entrepreneurial mindset.",
+				"Ability to work in multidisciplinary teams, communicate effectively, and engage in continuous learning.",
+				"Capacity to contribute to the advancement of the discipline through professional innovation, research, and development."
+			]
 		},
 		{
 			"date":"March 2020 - February 2023",
-			"title":"University prog. analyst",
+			"title":"University Analyst in Systems Development",
 			"institure":"UNICEN",
-			"description":"The UPA: Proficient in software dev, adaptable in diverse workplaces, drives societal impact through system enhancement."
+			"description":[
+				"Possesses theoretical and practical training necessary for professional performance, accompanied by resources that enable immediate and productive application of knowledge in the work context.",
+				"Extensive knowledge of main software techniques and tools, allowing quick adaptation to labor market demands.",
+				"Ability to work in different work environments, from small to large organizations across various development domains.",
+				"Capacity to adapt to the emergence of new technologies and software development tools.",
+				"Knowledge and aptitudes necessary to contribute positively to society that intensively uses software systems."
+			]
 		}
 	],
 	"experience":[
 		{
-			"date":"August 2024 - Present",
-			"title":"Trading Algorithm Developer",
+			"date":"August 2025 - Present",
+			"title":"Software Engineer",
 			"institure":"TradeSpark",
-			"description":"Develop and enhance functionalities for algorithmic trading on ArQuants, implementing strategies, optimizing code, performing testing, and collaborating with the team to innovate in capital market solutions."
+			"description":[
+				"Managed deployment and operation of systems using Kubernetes and GitLab CI/CD.",
+				"Architected distributed microservices in Go and Python communicating through FIX, HTTP, and gRPC protocols.",
+				"Designed event-driven architectures leveraging RabbitMQ, emphasizing concurrency and parallelism to minimize latency.",
+				"Developed automation tools and intelligent agents powered by LLMs using LangChain and LangGraph.",
+				"Contributed at every stage from architectural planning through implementation, testing, and engineering best practices."
+			]
+		},
+		{
+			"date":"August 2024 - August 2025",
+			"title":"Trading Algorithm Developer (Software Developer)",
+			"institure":"TradeSpark",
+			"description":[
+				"Developed and optimized functionalities for algorithmic trading at ArQuants, implementing strategies in Python and Go.",
+				"Executed comprehensive tests and refactored code to enhance efficiency across capital markets.",
+				"Designed robust structures to facilitate the development of new trading strategies.",
+				"Built internal tools to empower team performance through automations and integrations with external systems."
+			]
 		},
 		{
 			"date":"March 2024 - Present",
-			"title":"Asistant Teacher - OOP",
+			"title":"Asistant Teacher - Object Oriented Programming",
 			"institure":"UNICEN",
-			"description":"As a TA in object-oriented programming, facilitates student learning, communicates tech concepts effectively, enhances communication skills, reinforces personal understanding, and strengthens learning in Computer Science."
+			"description":[
+				"Facilitated student learning in object-oriented programming.",
+				"Communicated technical concepts effectively, enhancing students' communication skills.",
+				"Reinforced personal understanding and strengthened learning in Computer Science."
+			]
 		}
 	],
 	"certifications":[

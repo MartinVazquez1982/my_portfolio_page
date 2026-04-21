@@ -11,7 +11,7 @@ export interface Resume{
 	date: String,
 	title: String,
 	institure: String,
-	description: String
+	description: String[]
 }
 
 export interface Certification{
