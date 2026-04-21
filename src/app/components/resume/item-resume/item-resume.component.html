@@ -4,5 +4,7 @@
         <p class="date">{{ item_resume.date }}</p>
     </div>
     <h5 class="job">{{ item_resume.title }}</h5>
-    <p class="description">{{ item_resume.description }}</p>
+    <ul class="description">
+        <li *ngFor="let point of item_resume.description">{{ point }}</li>
+    </ul>
 </div>

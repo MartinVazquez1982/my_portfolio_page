@@ -45,5 +45,9 @@
   font-size: 13px;
   color: #D1D5DB;
   line-height: 1.5;
+  padding-left: 18px;
+}
+
+.description li {
   text-align: justify;
 }
