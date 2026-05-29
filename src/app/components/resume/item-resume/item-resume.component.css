@@ -2,6 +2,7 @@
   width: 100%;
   background-color: var(--background-container);
   border-radius: 8px;
+  border-left: 4px solid var(--orange-color);
   padding: 14px 20px;
   box-sizing: border-box;
   display: flex;
