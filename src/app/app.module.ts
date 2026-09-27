@@ -23,6 +23,8 @@ import { ProjectLinkApp } from './components/project/projectLink/projectLink.com
 import { SectionTitleApp } from './components/section-title/section-title.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { ChatApp } from './components/chat/chat.component';
 
 
 @NgModule({
@@ -45,14 +47,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoaderApp,
     ProjectListApp,
     SectionTitleApp,
-    ProjectLinkApp
+    ProjectLinkApp,
+    ChatApp
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

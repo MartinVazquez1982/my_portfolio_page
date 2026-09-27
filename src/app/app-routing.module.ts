@@ -6,6 +6,7 @@ import { ResumeApp } from './components/resume/resume.component';
 import { ContactApp } from './components/contact/contact.component';
 import { SkillsApp } from './components/skill/skills.component';
 import { ProjectsApp } from './components/project/projects.component';
+import { ChatApp } from './components/chat/chat.component';
 
 
 export const routes: Routes = [
@@ -14,7 +15,8 @@ export const routes: Routes = [
     {path: 'resume', component: ResumeApp},
     {path: 'contact', component: ContactApp},
     {path: 'skills', component: SkillsApp},
-    {path: 'projects', component: ProjectsApp}
+    {path: 'projects', component: ProjectsApp},
+    {path: 'chat', component: ChatApp}
 ];
 
 @NgModule({
